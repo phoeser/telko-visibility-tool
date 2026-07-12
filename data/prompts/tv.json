@@ -1,0 +1,131 @@
+{
+  "product": "TV & Kabelfernsehen",
+  "description": "Telko-Prompts (PŸUR Deutschland Projekt) — nightly LLM-Sichtbarkeit",
+  "prompts": [
+    {
+      "id": "tv-01",
+      "intent": "Vergleich",
+      "text": "Welcher TV-Anbieter ist 2026 der beste in Deutschland?"
+    },
+    {
+      "id": "tv-02",
+      "intent": "Vergleich",
+      "text": "Kabelfernsehen, IPTV oder Streaming — was ist die beste TV-Lösung und von welchem Anbieter?"
+    },
+    {
+      "id": "tv-03",
+      "intent": "Preis",
+      "text": "Was kostet Kabelfernsehen im Monat und welcher Anbieter ist am günstigsten?"
+    },
+    {
+      "id": "tv-04",
+      "intent": "Preis",
+      "text": "Günstigste Möglichkeit, HD-Sender zu empfangen — welche Anbieter kommen infrage?"
+    },
+    {
+      "id": "tv-05",
+      "intent": "Info",
+      "text": "Seit dem Ende des Nebenkostenprivilegs: Wie bekomme ich jetzt Kabelfernsehen in meiner Mietwohnung?"
+    },
+    {
+      "id": "tv-06",
+      "intent": "Info",
+      "text": "Welche TV-Anbieter gibt es für Mieter, deren Kabel-TV über die Nebenkosten weggefallen ist?"
+    },
+    {
+      "id": "tv-07",
+      "intent": "Vergleich",
+      "text": "MagentaTV, GigaTV, waipu.tv oder Kabel-TV — was lohnt sich am meisten?"
+    },
+    {
+      "id": "tv-08",
+      "intent": "Kauf",
+      "text": "Ich möchte heute noch einen TV-Anschluss buchen — welcher Anbieter schaltet am schnellsten frei?"
+    },
+    {
+      "id": "tv-09",
+      "intent": "Situation",
+      "text": "Fernsehen für die Eltern, die einfach nur klassische Sender schauen wollen — welcher Anbieter?"
+    },
+    {
+      "id": "tv-10",
+      "intent": "Situation",
+      "text": "TV-Paket mit vielen HD-Sendern und Aufnahmefunktion — welche Anbieter sind empfehlenswert?"
+    },
+    {
+      "id": "tv-11",
+      "intent": "Info",
+      "text": "Welche Senderliste bietet Kabelfernsehen im Vergleich zu IPTV?"
+    },
+    {
+      "id": "tv-12",
+      "intent": "Vergleich",
+      "text": "Welcher TV-Anbieter hat das beste Sport-Angebot?"
+    },
+    {
+      "id": "tv-13",
+      "intent": "Preis",
+      "text": "TV und Internet zusammen buchen — bei welchem Anbieter ist das Kombi-Paket am günstigsten?"
+    },
+    {
+      "id": "tv-14",
+      "intent": "Situation",
+      "text": "Fernsehen ohne Satellitenschüssel im Mehrfamilienhaus — welche Optionen und Anbieter gibt es?"
+    },
+    {
+      "id": "tv-15",
+      "intent": "Info",
+      "text": "Brauche ich für Kabel-TV einen Receiver und was bieten die Anbieter an Hardware?"
+    },
+    {
+      "id": "tv-16",
+      "intent": "Wechsel",
+      "text": "Mein Kabel-TV-Vertrag über den Vermieter ist ausgelaufen — welchen Anbieter wähle ich jetzt selbst?"
+    },
+    {
+      "id": "tv-17",
+      "intent": "Vergleich",
+      "text": "PŸUR, Vodafone oder Telekom fürs Fernsehen — wer hat das beste Angebot?"
+    },
+    {
+      "id": "tv-18",
+      "intent": "Info",
+      "text": "Welche TV-Anbieter zeigen die öffentlich-rechtlichen und privaten Sender in HD ohne Zusatzkosten?"
+    },
+    {
+      "id": "tv-19",
+      "intent": "Situation",
+      "text": "TV-Anschluss für eine WG — flexibel und günstig, welche Anbieter passen?"
+    },
+    {
+      "id": "tv-20",
+      "intent": "Kauf",
+      "text": "Wo kann ich Kabelfernsehen online bestellen und was kostet die Einrichtung?"
+    },
+    {
+      "id": "tv-21",
+      "intent": "Info",
+      "text": "Was passiert mit meinem Kabelanschluss nach dem Wegfall des Sammelinkassos?"
+    },
+    {
+      "id": "tv-22",
+      "intent": "Vergleich",
+      "text": "IPTV über die Internetleitung vs. klassisches Kabel-TV — Vor- und Nachteile und Anbieterempfehlung?"
+    },
+    {
+      "id": "tv-23",
+      "intent": "Preis",
+      "text": "TV-Paket unter 15 Euro im Monat — welche Anbieter haben so etwas?"
+    },
+    {
+      "id": "tv-24",
+      "intent": "Situation",
+      "text": "Pay-TV und Streaming-Dienste in einem Paket — welcher Anbieter bündelt am besten?"
+    },
+    {
+      "id": "tv-25",
+      "intent": "Info",
+      "text": "Welcher TV-Anbieter hat die beste Bildqualität (HD/UHD) im Kabelnetz?"
+    }
+  ]
+}

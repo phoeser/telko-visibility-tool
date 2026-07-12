@@ -1,0 +1,131 @@
+{
+  "product": "Kombi-Paket (Internet + TV + Telefon)",
+  "description": "Telko-Prompts (PŸUR Deutschland Projekt) — nightly LLM-Sichtbarkeit",
+  "prompts": [
+    {
+      "id": "kom-01",
+      "intent": "Vergleich",
+      "text": "Welcher Anbieter hat das beste Kombi-Paket aus Internet, TV und Telefon?"
+    },
+    {
+      "id": "kom-02",
+      "intent": "Vergleich",
+      "text": "GigaKombi, MagentaEINS oder regionale Kombi-Angebote — was lohnt sich am meisten?"
+    },
+    {
+      "id": "kom-03",
+      "intent": "Preis",
+      "text": "Wo bekomme ich Internet, Fernsehen und Telefon zusammen am günstigsten?"
+    },
+    {
+      "id": "kom-04",
+      "intent": "Preis",
+      "text": "Wie viel spare ich mit einem Kombi-Paket gegenüber Einzelverträgen und bei welchem Anbieter am meisten?"
+    },
+    {
+      "id": "kom-05",
+      "intent": "Kauf",
+      "text": "Ich möchte Internet und TV zusammen für meine neue Wohnung bestellen — welcher Anbieter macht es am einfachsten?"
+    },
+    {
+      "id": "kom-06",
+      "intent": "Situation",
+      "text": "Komplettpaket für eine Familie: schnelles Internet, viele TV-Sender, Festnetz — welche Anbieter vergleichen?"
+    },
+    {
+      "id": "kom-07",
+      "intent": "Situation",
+      "text": "Umzug in eine neue Wohnung: Internet + TV + Telefon aus einer Hand — welcher Anbieter ist zu empfehlen?"
+    },
+    {
+      "id": "kom-08",
+      "intent": "Info",
+      "text": "Was ist Triple Play und welche Anbieter bieten es in Deutschland an?"
+    },
+    {
+      "id": "kom-09",
+      "intent": "Vergleich",
+      "text": "Kombi-Paket über das Kabelnetz oder über DSL — was ist besser?"
+    },
+    {
+      "id": "kom-10",
+      "intent": "Preis",
+      "text": "Kombi-Paket unter 50 Euro im Monat — welche Anbieter haben passende Angebote?"
+    },
+    {
+      "id": "kom-11",
+      "intent": "Situation",
+      "text": "Ich will nur einen Vertrag und eine Rechnung für Internet, TV und Telefon — welche Anbieter bieten das?"
+    },
+    {
+      "id": "kom-12",
+      "intent": "Wechsel",
+      "text": "Meine Einzelverträge laufen aus — lohnt sich der Wechsel zu einem Kombi-Anbieter und zu welchem?"
+    },
+    {
+      "id": "kom-13",
+      "intent": "Info",
+      "text": "Bekomme ich im Kombi-Paket auch eine Festnetz-Flat und bei welchen Anbietern?"
+    },
+    {
+      "id": "kom-14",
+      "intent": "Vergleich",
+      "text": "Welcher Anbieter hat das beste Kombi-Angebot für Mieter in Mehrfamilienhäusern?"
+    },
+    {
+      "id": "kom-15",
+      "intent": "Situation",
+      "text": "Kombi-Paket für Senioren: einfach, günstig, mit klassischem Fernsehen — welcher Anbieter?"
+    },
+    {
+      "id": "kom-16",
+      "intent": "Kauf",
+      "text": "Gibt es aktuell Kombi-Aktionen mit Gutschriften oder Gratis-Monaten und bei wem?"
+    },
+    {
+      "id": "kom-17",
+      "intent": "Info",
+      "text": "Kann ich mein bestehendes Kabel-TV mit Internet vom gleichen Anbieter kombinieren?"
+    },
+    {
+      "id": "kom-18",
+      "intent": "Vergleich",
+      "text": "Vodafone GigaKombi vs. Telekom MagentaEINS — Konditionen im Vergleich?"
+    },
+    {
+      "id": "kom-19",
+      "intent": "Situation",
+      "text": "Junges Paar, erste gemeinsame Wohnung: Internet + TV möglichst günstig kombinieren — Empfehlung?"
+    },
+    {
+      "id": "kom-20",
+      "intent": "Preis",
+      "text": "Was kostet ein Komplettpaket mit 500 Mbit/s Internet und TV im Monat?"
+    },
+    {
+      "id": "kom-21",
+      "intent": "Info",
+      "text": "Welche Kombi-Pakete haben keine Mindestvertragslaufzeit?"
+    },
+    {
+      "id": "kom-22",
+      "intent": "Wechsel",
+      "text": "Internet bei einem Anbieter, TV beim anderen — lohnt die Zusammenlegung und bei wem?"
+    },
+    {
+      "id": "kom-23",
+      "intent": "Situation",
+      "text": "Kombi-Angebot mit Mobilfunk-Rabatt — welche Anbieter verbinden Festnetz und Handyvertrag?"
+    },
+    {
+      "id": "kom-24",
+      "intent": "Info",
+      "text": "Welcher Kombi-Anbieter hat den besten Service bei Störungen?"
+    },
+    {
+      "id": "kom-25",
+      "intent": "Vergleich",
+      "text": "Stiftung Warentest / Vergleichsportale: Welche Kombi-Pakete schneiden am besten ab?"
+    }
+  ]
+}

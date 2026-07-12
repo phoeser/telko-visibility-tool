@@ -1,0 +1,131 @@
+{
+  "product": "Glasfaser",
+  "description": "Telko-Prompts (PŸUR Deutschland Projekt) — nightly LLM-Sichtbarkeit",
+  "prompts": [
+    {
+      "id": "gla-01",
+      "intent": "Vergleich",
+      "text": "Welcher Glasfaser-Anbieter ist 2026 der beste in Deutschland?"
+    },
+    {
+      "id": "gla-02",
+      "intent": "Vergleich",
+      "text": "Telekom Glasfaser oder regionaler Anbieter — was ist die bessere Wahl?"
+    },
+    {
+      "id": "gla-03",
+      "intent": "Preis",
+      "text": "Wo bekomme ich den günstigsten Glasfaser-Tarif mit 500 Mbit/s?"
+    },
+    {
+      "id": "gla-04",
+      "intent": "Preis",
+      "text": "Was kostet ein Glasfaseranschluss im Monat und welche Anbieter sind am günstigsten?"
+    },
+    {
+      "id": "gla-05",
+      "intent": "Verfügbarkeit",
+      "text": "Wie finde ich heraus, ob Glasfaser an meiner Adresse verfügbar ist und von welchem Anbieter?"
+    },
+    {
+      "id": "gla-06",
+      "intent": "Verfügbarkeit",
+      "text": "Welche Anbieter bauen aktuell Glasfaser in Ostdeutschland aus?"
+    },
+    {
+      "id": "gla-07",
+      "intent": "Verfügbarkeit",
+      "text": "Glasfaser in der Mietwohnung — wer baut aus und was muss der Vermieter genehmigen?"
+    },
+    {
+      "id": "gla-08",
+      "intent": "Kauf",
+      "text": "Ich möchte einen Glasfaser-Vertrag vorbestellen, bevor der Ausbau fertig ist. Bei welchen Anbietern geht das?"
+    },
+    {
+      "id": "gla-09",
+      "intent": "Kauf",
+      "text": "Welche Glasfaser-Anbieter haben aktuell Aktionen mit kostenlosem Hausanschluss?"
+    },
+    {
+      "id": "gla-10",
+      "intent": "Situation",
+      "text": "Glasfaser fürs Homeoffice mit symmetrischem Upload — welche Anbieter bieten das für Privatkunden?"
+    },
+    {
+      "id": "gla-11",
+      "intent": "Situation",
+      "text": "Lohnt sich der Wechsel von Kabel auf Glasfaser und zu welchem Anbieter?"
+    },
+    {
+      "id": "gla-12",
+      "intent": "Info",
+      "text": "Was ist der Unterschied zwischen FTTH und FTTC und welche Anbieter bieten echtes FTTH?"
+    },
+    {
+      "id": "gla-13",
+      "intent": "Info",
+      "text": "Welche Glasfaser-Anbieter schneiden in Tests am besten ab?"
+    },
+    {
+      "id": "gla-14",
+      "intent": "Info",
+      "text": "Muss ich beim Glasfaserausbau den Anbieter nehmen, der ausbaut, oder habe ich freie Wahl?"
+    },
+    {
+      "id": "gla-15",
+      "intent": "Vergleich",
+      "text": "Glasfaser von der Telekom, Vodafone, O2 oder 1&1 — wer hat die besten Konditionen?"
+    },
+    {
+      "id": "gla-16",
+      "intent": "Wechsel",
+      "text": "Mein DSL-Vertrag läuft aus und Glasfaser ist jetzt verfügbar — wie wechsle ich und zu wem?"
+    },
+    {
+      "id": "gla-17",
+      "intent": "Preis",
+      "text": "Glasfaser-Tarife unter 40 Euro — welche Anbieter haben solche Angebote?"
+    },
+    {
+      "id": "gla-18",
+      "intent": "Situation",
+      "text": "Glasfaser für Gamer: Welcher Anbieter hat den niedrigsten Ping?"
+    },
+    {
+      "id": "gla-19",
+      "intent": "Kauf",
+      "text": "Glasfaser-Anschluss für ein Einfamilienhaus beantragen — wie und bei welchem Anbieter?"
+    },
+    {
+      "id": "gla-20",
+      "intent": "Info",
+      "text": "Welche Router brauche ich für Glasfaser und welche Anbieter liefern einen mit?"
+    },
+    {
+      "id": "gla-21",
+      "intent": "Verfügbarkeit",
+      "text": "In meiner Straße wird Glasfaser verlegt — welche Anbieter kann ich später darüber buchen?"
+    },
+    {
+      "id": "gla-22",
+      "intent": "Vergleich",
+      "text": "Regionale Glasfaser-Anbieter vs. große Telkos — Vor- und Nachteile?"
+    },
+    {
+      "id": "gla-23",
+      "intent": "Situation",
+      "text": "1000 Mbit/s Glasfaser für eine Familie mit Streaming und Gaming — welcher Tarif lohnt sich?"
+    },
+    {
+      "id": "gla-24",
+      "intent": "Info",
+      "text": "Wie lange dauert ein Glasfaser-Hausanschluss und welcher Anbieter ist am schnellsten?"
+    },
+    {
+      "id": "gla-25",
+      "intent": "Wechsel",
+      "text": "Vom Kabelanschluss zu Glasfaser wechseln — was muss ich beachten und welcher Anbieter macht es einfach?"
+    }
+  ]
+}

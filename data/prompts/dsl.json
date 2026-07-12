@@ -1,0 +1,131 @@
+{
+  "product": "DSL",
+  "description": "Telko-Prompts (PŸUR Deutschland Projekt) — nightly LLM-Sichtbarkeit",
+  "prompts": [
+    {
+      "id": "dsl-01",
+      "intent": "Vergleich",
+      "text": "Welcher DSL-Anbieter ist 2026 der beste in Deutschland?"
+    },
+    {
+      "id": "dsl-02",
+      "intent": "Vergleich",
+      "text": "Telekom, Vodafone, O2 oder 1&1 — wer hat die besten DSL-Tarife?"
+    },
+    {
+      "id": "dsl-03",
+      "intent": "Preis",
+      "text": "Wo bekomme ich den günstigsten DSL-Anschluss mit 100 Mbit/s?"
+    },
+    {
+      "id": "dsl-04",
+      "intent": "Preis",
+      "text": "Welcher DSL-Tarif hat das beste Preis-Leistungs-Verhältnis?"
+    },
+    {
+      "id": "dsl-05",
+      "intent": "Verfügbarkeit",
+      "text": "Wie finde ich heraus, welche DSL-Anbieter an meiner Adresse verfügbar sind?"
+    },
+    {
+      "id": "dsl-06",
+      "intent": "Verfügbarkeit",
+      "text": "Welche DSL-Anbieter gibt es auf dem Land, wo kein Kabel liegt?"
+    },
+    {
+      "id": "dsl-07",
+      "intent": "Kauf",
+      "text": "Ich möchte heute noch einen DSL-Vertrag online abschließen — welcher Anbieter geht am schnellsten?"
+    },
+    {
+      "id": "dsl-08",
+      "intent": "Kauf",
+      "text": "Welche DSL-Anbieter haben aktuell Cashback- oder Bonus-Aktionen für Neukunden?"
+    },
+    {
+      "id": "dsl-09",
+      "intent": "Situation",
+      "text": "DSL für Homeoffice mit Videokonferenzen — welcher Anbieter und welche Geschwindigkeit?"
+    },
+    {
+      "id": "dsl-10",
+      "intent": "Situation",
+      "text": "Günstiger DSL-Tarif für eine kleine Wohnung, ich brauche nur surfen und streamen — was empfiehlst du?"
+    },
+    {
+      "id": "dsl-11",
+      "intent": "Situation",
+      "text": "DSL mit kurzer Vertragslaufzeit oder monatlich kündbar — welche Anbieter bieten das?"
+    },
+    {
+      "id": "dsl-12",
+      "intent": "Wechsel",
+      "text": "Mein DSL ist zu langsam. Zu welchem Anbieter kann ich wechseln und wie läuft das ab?"
+    },
+    {
+      "id": "dsl-13",
+      "intent": "Wechsel",
+      "text": "DSL-Anbieter wechseln ohne Internetausfall — welcher neue Anbieter organisiert das am besten?"
+    },
+    {
+      "id": "dsl-14",
+      "intent": "Vergleich",
+      "text": "DSL oder Kabel-Internet — was ist zuverlässiger und günstiger?"
+    },
+    {
+      "id": "dsl-15",
+      "intent": "Info",
+      "text": "Welcher DSL-Anbieter hat den besten Router im Angebot?"
+    },
+    {
+      "id": "dsl-16",
+      "intent": "Info",
+      "text": "Was kostet ein DSL-Anschluss mit Telefon-Flat im Monat?"
+    },
+    {
+      "id": "dsl-17",
+      "intent": "Info",
+      "text": "Welche DSL-Anbieter schneiden bei Stiftung Warentest oder connect am besten ab?"
+    },
+    {
+      "id": "dsl-18",
+      "intent": "Info",
+      "text": "Welcher Internetanbieter hat die geringsten Störungen und Ausfälle?"
+    },
+    {
+      "id": "dsl-19",
+      "intent": "Preis",
+      "text": "DSL unter 25 Euro im Monat — welche Anbieter haben solche Tarife?"
+    },
+    {
+      "id": "dsl-20",
+      "intent": "Situation",
+      "text": "Internet und Festnetz-Telefon für meine Eltern — welcher einfache DSL-Tarif ist empfehlenswert?"
+    },
+    {
+      "id": "dsl-21",
+      "intent": "Vergleich",
+      "text": "Ist 1&1 DSL besser als O2 DSL? Was sagen die Tests?"
+    },
+    {
+      "id": "dsl-22",
+      "intent": "Situation",
+      "text": "Ich bekomme kein Glasfaser und kein Kabel — welcher VDSL-Anbieter ist die beste Wahl?"
+    },
+    {
+      "id": "dsl-23",
+      "intent": "Kauf",
+      "text": "DSL-Neuanschluss in einem Neubau — welcher Anbieter ist am schnellsten mit der Schaltung?"
+    },
+    {
+      "id": "dsl-24",
+      "intent": "Info",
+      "text": "Lohnt sich ein DSL-Tarif mit 250 Mbit/s oder reichen 100 Mbit/s? Und bei wem buchen?"
+    },
+    {
+      "id": "dsl-25",
+      "intent": "Wechsel",
+      "text": "Preiserhöhung beim Internetanbieter — Sonderkündigungsrecht nutzen und wohin wechseln?"
+    }
+  ]
+}

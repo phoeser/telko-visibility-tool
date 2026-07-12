@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telko Visibility — PŸUR</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#3b82f6" />
+  <meta name="apple-mobile-web-app-title" content="GEO Visibility" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-dot"></div>
+      <div>
+        <h1>GEO Visibility</h1>
+        <p class="subtitle">LLM-Sichtbarkeit & Impact-Analyse</p>
+      </div>
+    </div>
+    <nav class="tabs">
+      <button data-tab="dashboard" class="tab-btn active">Dashboard</button>
+      <button data-tab="history" class="tab-btn">Historie</button>
+      <button data-tab="impact" class="tab-btn">Impact</button>
+      <button data-tab="why" class="tab-btn">Why</button>
+      <button data-tab="missing-ergo" class="tab-btn">Warum nicht PŸUR?</button>
+      <button data-tab="config" class="tab-btn">Config</button>
+    </nav>
+    <div class="meta" id="runMeta">Lade Daten …</div>
+    <a id="runStatus" class="run-status" href="#" target="_blank" rel="noopener" style="display:none;" title="Aktueller Workflow-Lauf">
+      <span class="rs-ring"></span>
+      <span class="rs-num">#—</span>
+    </a>
+    <button id="refreshBtn" class="refresh-btn" title="Neuen Analyse-Lauf auf GitHub anstoßen" onclick="triggerRefresh()">↻ Neuer Lauf</button>
+  </header>
+
+  <!-- LLM-Toggles fuer naechsten Lauf -->
+  <div class="next-run-bar" id="nextRunBar" style="display:none;">
+    <span class="nr-label">Nächster Lauf:</span>
+    <div class="nr-chips" id="nextRunLlms"></div>
+    <span class="nr-status hint" id="nextRunStatus"></span>
+  </div>
+
+  <main>
+    <!-- ============ DASHBOARD TAB ============ -->
+    <section id="tab-dashboard" class="tab-panel active">
+      <section class="controls">
+        <label>Lauf:<select id="runSelector"></select></label>
+        <label>Produkt:<select id="productSelector"><option value="all">Alle Produkte</option></select></label>
+        <label>LLM:<select id="llmSelector"><option value="all">Alle LLMs</option></select></label>
+      </section>
+
+      <section class="kpis" id="kpiRow"></section>
+
+      <section class="card">
+        <h2>Executive Summary</h2>
+        <div id="execSummary" class="exec"></div>
+      </section>
+
+      <section class="card">
+        <h2>Share of Voice — Markenvergleich</h2>
+        <canvas id="sovChart" height="120"></canvas>
+      </section>
+
+      <div class="grid">
+        <section class="card">
+          <h2>Nennungs-Quote (Appearance Rate)</h2>
+          <canvas id="appearanceChart" height="160"></canvas>
+        </section>
+        <section class="card">
+          <h2>Durchschnitts-Rang in Listen</h2>
+          <canvas id="rankChart" height="160"></canvas>
+        </section>
+        <section class="card">
+          <h2>Quellen-Zitierung</h2>
+          <canvas id="citationChart" height="160"></canvas>
+        </section>
+      </div>
+
+      <section class="card">
+        <h2>Veränderungen vs. letzter Lauf (Top 10)</h2>
+        <div id="deltasTable"></div>
+      </section>
+
+      <section class="card">
+        <h2>Webseiten-Änderungen</h2>
+        <div id="webDiff"></div>
+      </section>
+
+      <details class="card collapsible">
+        <summary><h2 style="display:inline;margin:0">Prompt-Ebene: Einzelantworten</h2> <span class="hint">(zum Aufklappen)</span></summary>
+        <div id="promptDetails"></div>
+      </details>
+
+      <details class="card collapsible" id="promptManagerCard">
+        <summary><h2 style="display:inline;margin:0">Prompts verwalten</h2> <span class="hint">(edit &amp; hinzuf&uuml;gen — Speichern pusht ins Repo)</span></summary>
+        <div class="pm-bar">
+          <span id="pmStatus" class="hint">Lade Prompts …</span>
+          <button id="pmSaveBtn" class="btn-primary" onclick="pmSaveAll()" disabled>&Auml;nderungen speichern</button>
+        </div>
+        <div id="promptManager"></div>
+      </details>
+    </section>
+
+    <!-- ============ HISTORY TAB ============ -->
+    <section id="tab-history" class="tab-panel">
+      <section class="card">
+        <h2>Run-Archiv</h2>
+        <p class="hint">Klick auf eine Zeile öffnet den jeweiligen Lauf im Dashboard-Tab. Liste ist scrollbar.</p>
+        <div id="historyTableScroll" class="history-scroll"><div id="historyTable"></div></div>
+      </section>
+
+      <section class="card">
+        <h2>Zeitreihen — letzte 4 Läufe</h2>
+        <p class="hint">Entwicklung der Kernmetriken — bis zu 50 Läufe pro Lauf, danach wochenweise Aggregation. Nur aktive Marke + Top-3 Wettbewerber.</p>
+        <div class="grid">
+          <div class="subcard">
+            <h3>Share of Voice</h3>
+            <canvas id="trendSovChart" height="180"></canvas>
+          </div>
+          <div class="subcard">
+            <h3>Nennungs-Quote</h3>
+            <canvas id="trendAppChart" height="180"></canvas>
+          </div>
+          <div class="subcard">
+            <h3>Ø Rang</h3>
+            <canvas id="trendRankChart" height="180"></canvas>
+          </div>
+          <div class="subcard">
+            <h3>Zitierungs-Quote</h3>
+            <canvas id="trendCitChart" height="180"></canvas>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============ IMPACT TAB ============ -->
+    <section id="tab-impact" class="tab-panel">
+      <section class="card">
+        <h2>Website-Änderungen &times; LLM-Sichtbarkeit</h2>
+        <p class="hint">
+          Verknüpfung zwischen beobachteten Änderungen auf Websites (eigene Marke + Wettbewerber)
+          und der Entwicklung der LLM-Metriken über die Läufe hinweg. t+1 = erster Lauf nach Event,
+          t+2 = zweiter Lauf danach. Δ ist die Änderung zum letzten Lauf <em>vor</em> dem Event.
+        </p>
+        <div class="controls" id="impactControls">
+          <label>Marke:
+            <select id="impactBrandFilter"><option value="all">Alle Marken</option></select>
+          </label>
+          <label>Produkt:
+            <select id="impactProductFilter"><option value="all">Alle Produkte</option></select>
+          </label>
+          <label>Typ:
+            <select id="impactTypeFilter">
+              <option value="all">Alle Typen</option>
+              <option value="change">Nur Änderungen</option>
+              <option value="first_seen">Nur Erstsichtungen</option>
+            </select>
+          </label>
+          <label>Nur mit Impact:
+            <input type="checkbox" id="impactOnlyWithDelta" />
+          </label>
+        </div>
+      </section>
+
+      <section class="kpis" id="impactKpis"></section>
+
+      <section class="card">
+        <h2>Share-of-Voice Timeline (eigene Marke)</h2>
+        <p class="hint">Blaue Linie = SoV-Verlauf. Rote Marker = erfasste Website-Events (eigene Marke + Wettbewerber).</p>
+        <canvas id="impactTimelineChart" height="130"></canvas>
+      </section>
+
+      <section class="card">
+        <h2>Top-Events nach Δ Share of Voice</h2>
+        <p class="hint">Sortiert nach absoluter SoV-Veränderung bei t+1. Klick auf eine Zeile öffnet Details.</p>
+        <div id="impactEventsTable"></div>
+      </section>
+    </section>
+
+    <!-- ============ WHY TAB ============ -->
+    <section id="tab-why" class="tab-panel">
+      <section class="card">
+        <h2>Why-Analyse</h2>
+        <p class="hint">
+          Pro Produkt und Marke: warum wird die Marke genannt, warum nicht.
+          Die Analyse wird bei jedem Lauf automatisch erzeugt (Claude analysiert
+          die Antwort-Muster). Zeigt Themen, Zitate und konkrete
+          SEO-/Content-Handlungsempfehlungen.
+        </p>
+      </section>
+      <div id="whyContainer"></div>
+    </section>
+
+    <!-- ============ MISSING-ERGO TAB ============ -->
+    <section id="tab-missing-ergo" class="tab-panel">
+      <section class="card">
+        <h2>Warum wurde PŸUR nicht erwähnt?</h2>
+        <p class="hint">
+          Für jeden Prompt, in dem ein LLM PŸUR nicht erwähnt hat, wurde der
+          <strong>gleiche LLM</strong> nachgefragt: "Warum hast du PŸUR nicht
+          erwähnt?". Die Freitext-Antworten werden in feste Kategorien
+          klassifiziert (Preis, Marktposition, Test-Sieger, Awareness …) und
+          pro Produkt aggregiert. Es wurden nur die LLMs befragt, die im
+          jeweiligen Lauf aktiv waren.
+        </p>
+        <div id="meKpiRow" class="kpis"></div>
+      </section>
+
+      <section class="card">
+        <h2>Produkt-Auswahl</h2>
+        <nav class="me-product-tabs" id="meProductTabs"></nav>
+      </section>
+
+      <div id="meProductContainer"></div>
+
+      <section class="card">
+        <h2>Trend über die letzten Läufe</h2>
+        <p class="hint">Anteil der Prompts pro Lauf, in denen PŸUR nicht erwähnt wurde — je niedriger desto besser.</p>
+        <canvas id="meTrendChart" height="140"></canvas>
+      </section>
+    </section>
+
+    <!-- ============ CONFIG TAB ============ -->
+    <section id="tab-config" class="tab-panel">
+      <section class="card cfg-banner">
+        <h2>Konfiguration bearbeiten</h2>
+        <p class="hint">
+          Änderungen werden beim Speichern direkt ins GitHub-Repo gepusht und beeinflussen den nächsten Analyse-Lauf.
+          Alle Werte bleiben im Browser bis du "Speichern" klickst.
+        </p>
+        <div class="row">
+          <label for="cfgRepo">GitHub-Repo</label>
+          <input id="cfgRepo" type="text" placeholder="phoeser/geo-visibility-tool" />
+        </div>
+        <div class="row">
+          <label for="cfgToken">GitHub Token <span class="pill flat" id="cfgTokenStatus">nicht gesetzt</span></label>
+          <input id="cfgToken" type="password" placeholder="ghp_… — Scopes: repo + workflow" />
+          <p class="hint">Wird nur im Browser (localStorage) gespeichert. Wenn leer: nur Lesen möglich, kein Speichern.</p>
+        </div>
+      </section>
+
+      <!-- Marke -->
+      <section class="card">
+        <h2>Marke</h2>
+        <div class="row">
+          <label>Name</label>
+          <input id="cfgBrandName" type="text" />
+        </div>
+        <div class="row">
+          <label>Website (vollständige URL)</label>
+          <input id="cfgBrandWebsite" type="text" placeholder="https://www.pyur.com" />
+        </div>
+        <div class="row">
+          <label>Domain <span class="hint">(nur Host, z.B. pyur.com)</span></label>
+          <input id="cfgBrandDomain" type="text" placeholder="ergo.de" />
+        </div>
+        <div class="row">
+          <label>Aliase <span class="hint">(Komma-getrennt)</span></label>
+          <input id="cfgBrandAliases" type="text" placeholder="PYUR, Tele Columbus" />
+        </div>
+      </section>
+
+      <!-- LLMs -->
+      <section class="card">
+        <h2>LLMs</h2>
+        <p class="hint">Aktivierte LLMs werden im nächsten Lauf abgefragt. API-Keys werden nicht hier konfiguriert — siehe auto_deploy.html Phase 2.</p>
+        <div id="cfgLlms" class="cfg-llms"></div>
+      </section>
+
+      <!-- Missing-ERGO-Analyse -->
+      <section class="card">
+        <h2>Missing-ERGO-Analyse</h2>
+        <p class="hint">
+          Für jeden Prompt, bei dem PŸUR nicht erwähnt wurde, wird der gleiche LLM
+          mit einer Follow-up-Frage konfrontiert ("Warum hast du PŸUR nicht erwähnt?").
+          Die Antworten werden klassifiziert und im Tab "Warum nicht PŸUR?" angezeigt.
+        </p>
+        <div class="row">
+          <label class="check-row" style="cursor:pointer;">
+            <input id="cfgMissingErgoEnabled" type="checkbox" checked>
+            <strong>Aktiviert</strong>
+            <span class="hint">— läuft bei jedem nächtlichen Analyse-Lauf</span>
+          </label>
+        </div>
+        <div class="row">
+          <label for="cfgMissingErgoCap">Max Follow-up-Calls pro Lauf</label>
+          <input id="cfgMissingErgoCap" type="number" min="0" max="2000" step="10" placeholder="250" />
+          <p class="hint">
+            Schutz vor Quota-Limit. 0 = kein Cap (alle Misses werden befragt). Empfohlen: 250 bei 3 LLMs, 400 bei 5 LLMs.
+          </p>
+        </div>
+      </section>
+
+      <!-- Wettbewerber -->
+      <section class="card">
+        <h2>Wettbewerber</h2>
+        <p class="hint">Marken, die in den LLM-Antworten als Konkurrenten getrackt werden sollen.</p>
+        <div id="cfgCompetitors" class="cfg-competitors"></div>
+        <button class="btn-secondary" onclick="cfgAddCompetitor()">+ Wettbewerber hinzufügen</button>
+      </section>
+
+      <!-- Produkte -->
+      <section class="card">
+        <h2>Produkte &amp; Prompts</h2>
+        <p class="hint">Pro Produkt: Prompts für die LLMs sowie Keywords + URL-Tracking für die Website-Impact-Analyse.</p>
+        <div id="cfgProducts" class="cfg-products"></div>
+        <button class="btn-secondary" onclick="cfgAddProduct()">+ Produkt hinzufügen</button>
+      </section>
+
+      <!-- Speichern -->
+      <section class="card cfg-save">
+        <button id="cfgSaveBtn" class="btn-primary" onclick="cfgSaveAll()">Alle Änderungen speichern</button>
+        <div id="cfgSaveStatus" class="status"></div>
+        <div id="cfgSaveLog" class="log" style="display:none;"></div>
+      </section>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

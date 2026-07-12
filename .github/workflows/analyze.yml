@@ -1,0 +1,190 @@
+name: Analyze Visibility
+
+# Manuell aus dem GitHub-UI startbar (Actions-Tab -> "Run workflow")
+# UND taeglich automatisch um 03:00 UTC (= 05:00 MESZ / 04:00 MEZ).
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry-Run ohne API-Calls (nur Dummy-Daten)"
+        type: boolean
+        default: false
+      limit:
+        description: "Prompts-Limit pro Produkt (leer = alle 20)"
+        type: string
+        default: ""
+  schedule:
+    # Taeglich 23:40 UTC = 01:40 MESZ Folgetag (Sommer) / 00:40 MEZ (Winter).
+    # Bewusst 30 min NACH dem geo-visibility-tool-Nightly, damit sich beide
+    # Repos die LLM-API-Keys nicht gleichzeitig in die Rate-Limits laufen.
+    # GitHub-Free-Tier verzoegert scheduled Jobs typisch 4-8h - mit Trigger
+    # gegen 01:10 nachts ist der Lauf realistisch zwischen 05:00 und 09:00 MESZ
+    # fertig, also vor Buero-Start.
+    - cron: "40 23 * * *"
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    # FlareSolverr laeuft als Docker-Service, loest Cloudflare-Challenges fuer
+    # blockierte Wettbewerber-Seiten (z.B. Allianz). Kostenlos, selbst-gehostet.
+    services:
+      flaresolverr:
+        image: ghcr.io/flaresolverr/flaresolverr:latest
+        ports:
+          - 8191:8191
+        env:
+          LOG_LEVEL: info
+          LOG_HTML: "false"
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 3.11 einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Dependencies installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Analyse ausführen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          FLARESOLVERR_URL: http://localhost:8191/v1
+        run: |
+          # set -e ist tueckisch bei Pipelines + Substitutions. Wir prueffen Exit-Codes
+          # explizit, damit der Workflow nicht VOR der Diagnose abbricht.
+          set +e
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
+          fi
+          # Snapshot der Run-Files VOR dem Lauf (damit wir nachher pruefen,
+          # ob ein neuer dazugekommen ist - "silent success" verhindern).
+          BEFORE_COUNT=$(ls -1 data/runs/2026-*.json 2>/dev/null | wc -l)
+          BEFORE_MTIME=$(stat -c '%Y' data/runs/latest.json 2>/dev/null || echo 0)
+          echo "[CHECK] Before: $BEFORE_COUNT run-files, latest.json mtime=$BEFORE_MTIME"
+
+          # Selbst-Test: Module-Imports separat, damit der Crash-Punkt sichtbar ist
+          echo "[SELFTEST] python --version:"
+          python --version
+          echo "[SELFTEST] importiere analyzer.main ..."
+          python -c "import analyzer.main; print('[SELFTEST] OK')" 2>&1
+          IMPORT_EXIT=$?
+          if [ "$IMPORT_EXIT" -ne 0 ]; then
+            echo "::error::Import-Test fehlgeschlagen (exit $IMPORT_EXIT) - kompletter Lauf wird trotzdem versucht"
+          fi
+
+          echo "Starte Analyse mit: $ARGS"
+          python -m analyzer.main $ARGS
+          PY_EXIT=$?
+          echo "[CHECK] python -m analyzer.main exit-Code: $PY_EXIT"
+          if [ "$PY_EXIT" -ne 0 ]; then
+            echo "::error::analyzer.main exited mit code $PY_EXIT"
+            exit "$PY_EXIT"
+          fi
+
+          # Sanity-Check: wirklich neuer Run-File?
+          AFTER_COUNT=$(ls -1 data/runs/2026-*.json 2>/dev/null | wc -l)
+          AFTER_MTIME=$(stat -c '%Y' data/runs/latest.json 2>/dev/null || echo 0)
+          echo "[CHECK] After:  $AFTER_COUNT run-files, latest.json mtime=$AFTER_MTIME"
+          if [ "$AFTER_COUNT" -le "$BEFORE_COUNT" ] && [ "$AFTER_MTIME" -le "$BEFORE_MTIME" ]; then
+            echo "::error::Kein neuer Run-File geschrieben - analyzer.main lief vermutlich leer durch."
+            exit 1
+          fi
+          echo "[OK] Neuer Run-File erkannt."
+
+      - name: Ergebnisse zurück in das Repo committen
+        run: |
+          set -x
+          git config --global user.name "geo-bot"
+          git config --global user.email "geo-bot@users.noreply.github.com"
+
+          # Stage nur die Daten-Verzeichnisse die wir schreiben
+          git add -A data/runs data/snapshots data/pages data/correlation.json data/unified_correlation.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen zum Committen."
+            exit 0
+          fi
+
+          COMMIT_MSG="Run $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git commit -m "$COMMIT_MSG"
+          OUR_COMMIT=$(git rev-parse HEAD)
+
+          # Strategie: bis zu 10x fetch+merge+push. Bei Merge-Konflikt -X ours.
+          # Als letzter Anker: force-with-lease (safe-overwrite).
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            echo "--- Push-Versuch $i ---"
+            git fetch origin main
+
+            # Pruefen ob remote weitergelaufen ist
+            REMOTE_HEAD=$(git rev-parse origin/main)
+            LOCAL_BASE=$(git rev-parse HEAD^1)
+            if [ "$REMOTE_HEAD" != "$LOCAL_BASE" ]; then
+              echo "Remote hat neue Commits. Replay unseres Commits auf neuen main."
+              # Reset auf remote main, dann unseren commit cherry-picken mit -X theirs
+              # (damit unsere data-Aenderungen Vorrang haben)
+              git reset --hard origin/main
+              if ! git cherry-pick -X theirs "$OUR_COMMIT"; then
+                echo "Cherry-pick mit -X theirs scheitert - abort"
+                git cherry-pick --abort 2>/dev/null || true
+                # Fallback: erneut aus workspace adden (unsere data ist noch im workspace)
+                git add -A data/runs data/snapshots data/pages data/correlation.json data/unified_correlation.json 2>/dev/null || true
+                if git diff --cached --quiet; then
+                  echo "Nichts zu committen nach reset"
+                  exit 0
+                fi
+                git commit -m "$COMMIT_MSG"
+              fi
+              OUR_COMMIT=$(git rev-parse HEAD)
+            fi
+
+            if git push origin HEAD:main; then
+              echo "push ok (Versuch $i)"
+              exit 0
+            fi
+
+            WAIT=$((2 + i))
+            echo "push abgelehnt, warte ${WAIT}s..."
+            sleep $WAIT
+          done
+
+          # Letzter Anker: force-with-lease (ueberschreibt nur wenn remote seit unserem fetch unveraendert)
+          echo "Last resort: force-with-lease"
+          git fetch origin main
+          if git push --force-with-lease=main:$(git rev-parse origin/main) origin HEAD:main; then
+            echo "force-with-lease push ok"
+            exit 0
+          fi
+          echo "Push final fehlgeschlagen - haendisch eingreifen."
+          exit 1
+
+      - name: GitHub Pages neu bauen lassen
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Force Pages-Rebuild, da GITHUB_TOKEN-Commits normalerweise keinen Pages-Workflow triggern
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" \
+            || echo "Pages-Rebuild-Trigger fehlgeschlagen (nicht fatal)"

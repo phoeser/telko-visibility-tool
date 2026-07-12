@@ -1,0 +1,280 @@
+{
+  "brand": {
+    "name": "PŸUR",
+    "aliases": [
+      "PŸUR",
+      "PYUR",
+      "Pyur",
+      "pyur",
+      "Tele Columbus",
+      "TeleColumbus",
+      "pyur.com"
+    ],
+    "domain": "pyur.com",
+    "website": "https://www.pyur.com",
+    "extra_domains": [
+      "telecolumbus.com",
+      "telecolumbus.de"
+    ]
+  },
+  "products": [
+    {
+      "id": "kabel-internet",
+      "name": "Kabel-Internet",
+      "url": "https://www.pyur.com/privat/internet/kabel",
+      "prompts_file": "prompts/kabel-internet.json",
+      "category": "Internet",
+      "keywords": [
+        "kabel-internet", "kabelinternet", "kabelanschluss", "internet-anbieter",
+        "internet-tarife", "internetanschluss", "breitband", "highspeed-internet",
+        "internet-ohne-festnetz", "wlan-kabel", "docsis", "kabelnetz",
+        "internet-verfuegbarkeit", "speedtest", "router", "internet-wechseln",
+        "gigabit", "1000-mbit", "500-mbit", "internet-mietwohnung"
+      ],
+      "tracked_urls": {
+        "PŸUR": [
+          "https://www.pyur.com/privat/internet/kabel",
+          "https://www.pyur.com/privat/internet",
+          "https://www.pyur.com/privat/internet/verfuegbarkeit",
+          "https://www.pyur.com/privat/internet/wechseln"
+        ],
+        "Vodafone": [
+          "https://www.vodafone.de/privat/internet/kabel.html",
+          "https://www.vodafone.de/privat/internet.html"
+        ],
+        "Telekom": [
+          "https://www.telekom.de/internet"
+        ],
+        "O2": [
+          "https://www.o2online.de/dsl/",
+          "https://www.o2online.de/homespot/"
+        ],
+        "1&1": [
+          "https://www.1und1.de/internet"
+        ]
+      }
+    },
+    {
+      "id": "dsl",
+      "name": "DSL",
+      "url": "https://www.pyur.com/privat/internet/dsl",
+      "prompts_file": "prompts/dsl.json",
+      "category": "Internet",
+      "keywords": [
+        "dsl", "vdsl", "dsl-tarife", "dsl-anbieter", "dsl-anschluss",
+        "dsl-vertrag", "dsl-angebote", "dsl-verfuegbarkeit", "dsl-speedtest",
+        "dsl-wechseln", "dsl-oder-kabel", "festnetz", "telefonanschluss",
+        "internet-und-telefon", "dsl-router", "250-mbit", "100-mbit", "50-mbit"
+      ],
+      "tracked_urls": {
+        "PŸUR": [
+          "https://www.pyur.com/privat/internet/dsl",
+          "https://www.pyur.com/privat/internet/dsl/angebote",
+          "https://www.pyur.com/privat/internet/dsl/anschluss",
+          "https://www.pyur.com/privat/internet/dsl/vertrag"
+        ],
+        "Telekom": [
+          "https://www.telekom.de/internet"
+        ],
+        "Vodafone": [
+          "https://www.vodafone.de/privat/internet/dsl.html"
+        ],
+        "O2": [
+          "https://www.o2online.de/dsl/"
+        ],
+        "1&1": [
+          "https://www.1und1.de/dsl",
+          "https://dsl.1und1.de/"
+        ]
+      }
+    },
+    {
+      "id": "glasfaser",
+      "name": "Glasfaser",
+      "url": "https://www.pyur.com/privat/internet/glasfaser",
+      "prompts_file": "prompts/glasfaser.json",
+      "category": "Internet",
+      "keywords": [
+        "glasfaser", "glasfaseranschluss", "glasfaser-tarife", "glasfaser-anbieter",
+        "ftth", "fiber", "glasfaser-ausbau", "glasfaser-verfuegbarkeit",
+        "glasfaser-hausanschluss", "glasfaser-mietwohnung", "gigabit-internet",
+        "glasfaser-vertrag", "glasfaser-angebote", "glasfaser-router", "ausbauprojekte"
+      ],
+      "tracked_urls": {
+        "PŸUR": [
+          "https://www.pyur.com/privat/internet/glasfaser",
+          "https://www.pyur.com/privat/internet/glasfaser/glasfaseranschluss",
+          "https://www.pyur.com/privat/internet/glasfaser/ausbauprojekte"
+        ],
+        "Telekom": [
+          "https://www.telekom.de/glasfaser"
+        ],
+        "Vodafone": [
+          "https://www.vodafone.de/privat/internet/glasfaser.html"
+        ],
+        "O2": [
+          "https://www.o2online.de/glasfaser/"
+        ],
+        "1&1": [
+          "https://www.1und1.de/glasfaser"
+        ]
+      }
+    },
+    {
+      "id": "tv",
+      "name": "TV & Kabelfernsehen",
+      "url": "https://www.pyur.com/privat/fernsehen",
+      "prompts_file": "prompts/tv.json",
+      "category": "TV",
+      "keywords": [
+        "kabelfernsehen", "kabel-tv", "fernsehen", "tv-anbieter", "tv-anschluss",
+        "tv-tarife", "senderliste", "hd-sender", "tv-paket", "iptv",
+        "magenta-tv", "giga-tv", "waipu", "tv-mietwohnung", "nebenkostenprivileg",
+        "sammelinkasso", "tv-empfang", "receiver", "streaming-tv"
+      ],
+      "tracked_urls": {
+        "PŸUR": [
+          "https://www.pyur.com/privat/fernsehen",
+          "https://www.pyur.com/privat/fernsehen/kabel",
+          "https://www.pyur.com/privat/fernsehen/kabelfernsehen-nebenkosten-mietwohnung",
+          "https://www.pyur.com/privat/fernsehen/senderliste"
+        ],
+        "Telekom": [
+          "https://www.telekom.de/magenta-tv"
+        ],
+        "Vodafone": [
+          "https://www.vodafone.de/privat/fernsehen.html"
+        ],
+        "O2": [
+          "https://www.o2online.de/tv/"
+        ],
+        "1&1": [
+          "https://www.1und1.de/fernsehen"
+        ]
+      }
+    },
+    {
+      "id": "kombi",
+      "name": "Kombi-Paket (Internet + TV + Telefon)",
+      "url": "https://www.pyur.com/privat/internet-tv-telefon-kombi",
+      "prompts_file": "prompts/kombi.json",
+      "category": "Kombi",
+      "keywords": [
+        "kombi-paket", "kombi-angebot", "internet-tv-telefon", "triple-play",
+        "internet-und-tv", "komplettpaket", "bundle", "gigakombi",
+        "magentaeins", "kombivorteil", "internet-tv-kombi", "festnetz-flat",
+        "telefon-flat", "doppel-flat"
+      ],
+      "tracked_urls": {
+        "PŸUR": [
+          "https://www.pyur.com/privat/internet-tv-telefon-kombi",
+          "https://www.pyur.com/privat/internet/festnetz"
+        ],
+        "Telekom": [
+          "https://www.telekom.de/magentaeins"
+        ],
+        "Vodafone": [
+          "https://www.vodafone.de/gigakombi"
+        ],
+        "O2": [
+          "https://www.o2online.de/dsl/"
+        ],
+        "1&1": [
+          "https://www.1und1.de/dsl"
+        ]
+      }
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Telekom",
+      "aliases": ["Telekom", "Deutsche Telekom", "T-Home", "Magenta", "MagentaZuhause", "MagentaTV", "telekom.de"],
+      "domain": "telekom.de",
+      "website": "https://www.telekom.de/",
+      "extra_domains": ["telekom.com", "t-online.de"]
+    },
+    {
+      "name": "Vodafone",
+      "aliases": ["Vodafone", "Vodafone Deutschland", "Vodafone Kabel", "Kabel Deutschland", "GigaZuhause", "vodafone.de"],
+      "domain": "vodafone.de",
+      "website": "https://www.vodafone.de/",
+      "extra_domains": ["kabeldeutschland.de"]
+    },
+    {
+      "name": "O2",
+      "aliases": ["O2", "o2", "O₂", "O2 Telefónica", "Telefónica", "Telefonica", "o2online.de"],
+      "domain": "o2online.de",
+      "website": "https://www.o2online.de/",
+      "extra_domains": ["telefonica.de", "o2.de"]
+    },
+    {
+      "name": "1&1",
+      "aliases": ["1&1", "1und1", "1 & 1", "1&1 AG", "1&1 Versatel", "1und1.de"],
+      "domain": "1und1.de",
+      "website": "https://www.1und1.de/",
+      "extra_domains": ["dsl.1und1.de", "mobile.1und1.de"]
+    }
+  ],
+  "llms": [
+    {
+      "id": "claude",
+      "enabled": false,
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "display_name": "Claude (Anthropic)"
+    },
+    {
+      "id": "gemini",
+      "enabled": true,
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+      "display_name": "Gemini (Google)"
+    },
+    {
+      "id": "chatgpt",
+      "enabled": true,
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "ChatGPT (OpenAI)"
+    },
+    {
+      "id": "grok",
+      "enabled": false,
+      "provider": "xai",
+      "model": "grok-2-1212",
+      "display_name": "Grok (xAI)"
+    },
+    {
+      "id": "perplexity",
+      "enabled": true,
+      "provider": "perplexity",
+      "model": "sonar",
+      "display_name": "Perplexity"
+    }
+  ],
+  "settings": {
+    "runs_per_prompt": 1,
+    "temperature": 0.3,
+    "max_tokens": 1200,
+    "parallel_requests": 5,
+    "retry_attempts": 3
+  },
+  "why_analysis_llm": "chatgpt",
+  "url_excludes": [
+    {
+      "type": "substring",
+      "pattern": "/vor-ort-suche",
+      "description": "PŸUR Vor-Ort-/Shop-Suche (lokale Seiten, nicht produktrelevant)"
+    },
+    {
+      "type": "regex",
+      "pattern": "^https?://(?!www\\.pyur\\.com)[a-z0-9-]+\\.pyur\\.com(/|$)",
+      "description": "PŸUR-Subdomains (Service-/Kundenportale)"
+    }
+  ],
+  "respect_robots_txt": true,
+  "missing_ergo": {
+    "enabled": true,
+    "max_total_followups": 250
+  }
+}

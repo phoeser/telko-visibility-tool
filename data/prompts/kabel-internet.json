@@ -1,0 +1,131 @@
+{
+  "product": "Kabel-Internet",
+  "description": "Telko-Prompts (PŸUR Deutschland Projekt) — nightly LLM-Sichtbarkeit",
+  "prompts": [
+    {
+      "id": "kab-01",
+      "intent": "Vergleich",
+      "text": "Welcher Kabel-Internet-Anbieter ist 2026 der beste in Deutschland?"
+    },
+    {
+      "id": "kab-02",
+      "intent": "Vergleich",
+      "text": "Kabel-Internet oder DSL — was ist besser und welche Anbieter empfiehlst du?"
+    },
+    {
+      "id": "kab-03",
+      "intent": "Preis",
+      "text": "Wo bekomme ich den günstigsten Internetanschluss über Kabel?"
+    },
+    {
+      "id": "kab-04",
+      "intent": "Preis",
+      "text": "Welcher Internetanbieter hat das beste Preis-Leistungs-Verhältnis bei 500 Mbit/s?"
+    },
+    {
+      "id": "kab-05",
+      "intent": "Verfügbarkeit",
+      "text": "Welche Internetanbieter gibt es in Berlin für eine Mietwohnung mit Kabelanschluss?"
+    },
+    {
+      "id": "kab-06",
+      "intent": "Verfügbarkeit",
+      "text": "Ich ziehe nach Leipzig um — welcher Internetanbieter ist dort verfügbar und empfehlenswert?"
+    },
+    {
+      "id": "kab-07",
+      "intent": "Verfügbarkeit",
+      "text": "Welche Alternativen zu Vodafone Kabel-Internet gibt es in Ostdeutschland?"
+    },
+    {
+      "id": "kab-08",
+      "intent": "Kauf",
+      "text": "Ich möchte sofort online einen Internetvertrag mit 1000 Mbit/s abschließen. Welche Anbieter kommen infrage?"
+    },
+    {
+      "id": "kab-09",
+      "intent": "Kauf",
+      "text": "Welcher Internetanbieter hat aktuell die besten Neukunden-Angebote?"
+    },
+    {
+      "id": "kab-10",
+      "intent": "Situation",
+      "text": "Internet für eine WG mit 4 Personen — welcher Tarif und Anbieter lohnt sich?"
+    },
+    {
+      "id": "kab-11",
+      "intent": "Situation",
+      "text": "Ich brauche schnelles Internet fürs Homeoffice mit stabilem Upload. Welchen Anbieter empfiehlst du?"
+    },
+    {
+      "id": "kab-12",
+      "intent": "Situation",
+      "text": "Günstiges Internet für Studenten — welche Anbieter haben spezielle Junge-Leute-Tarife?"
+    },
+    {
+      "id": "kab-13",
+      "intent": "Situation",
+      "text": "Welcher Internetanbieter ist für Senioren am einfachsten und günstigsten?"
+    },
+    {
+      "id": "kab-14",
+      "intent": "Situation",
+      "text": "Internet ohne Festnetzanschluss — welche Anbieter bieten das an?"
+    },
+    {
+      "id": "kab-15",
+      "intent": "Vergleich",
+      "text": "Wie schneidet PŸUR im Vergleich zu Vodafone und Telekom beim Internet ab?"
+    },
+    {
+      "id": "kab-16",
+      "intent": "Vergleich",
+      "text": "Welche Internetanbieter nutzen das TV-Kabelnetz statt der Telefonleitung?"
+    },
+    {
+      "id": "kab-17",
+      "intent": "Wechsel",
+      "text": "Ich will meinen Internetanbieter wechseln, weil er zu teuer ist. Wer übernimmt die Kündigung und hat gute Konditionen?"
+    },
+    {
+      "id": "kab-18",
+      "intent": "Wechsel",
+      "text": "Mein Internetvertrag läuft aus — zu welchem Anbieter sollte ich wechseln?"
+    },
+    {
+      "id": "kab-19",
+      "intent": "Info",
+      "text": "Welche Internetanbieter haben die beste Kundenbewertung in Deutschland?"
+    },
+    {
+      "id": "kab-20",
+      "intent": "Info",
+      "text": "Welcher Internetanbieter hat den besten Kundenservice?"
+    },
+    {
+      "id": "kab-21",
+      "intent": "Info",
+      "text": "Was kostet ein Kabel-Internet-Anschluss mit 500 Mbit/s im Monat und bei wem?"
+    },
+    {
+      "id": "kab-22",
+      "intent": "Info",
+      "text": "Welche Internetanbieter bieten Gigabit-Geschwindigkeit in deutschen Großstädten?"
+    },
+    {
+      "id": "kab-23",
+      "intent": "Situation",
+      "text": "Internet für die Mietwohnung: Der Vermieter hat einen Kabelanschluss von Tele Columbus — was bedeutet das für mich?"
+    },
+    {
+      "id": "kab-24",
+      "intent": "Preis",
+      "text": "Wo gibt es Internet-Tarife unter 30 Euro im Monat mit mindestens 250 Mbit/s?"
+    },
+    {
+      "id": "kab-25",
+      "intent": "Vergleich",
+      "text": "Stiftung Warentest Internetanbieter: Wer schneidet aktuell am besten ab?"
+    }
+  ]
+}

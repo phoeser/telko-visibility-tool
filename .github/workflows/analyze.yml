@@ -1,7 +1,7 @@
 name: Analyze Visibility
 
-# Manuell aus dem GitHub-UI startbar (Actions-Tab -> "Run workflow")
-# UND taeglich automatisch um 03:00 UTC (= 05:00 MESZ / 04:00 MEZ).
+# NUR manuell startbar (GitHub-UI: Actions-Tab -> "Run workflow").
+# Kein automatischer Nightly — Crawls laufen ausschliesslich auf Wunsch.
 on:
   workflow_dispatch:
     inputs:
@@ -13,14 +13,6 @@ on:
         description: "Prompts-Limit pro Produkt (leer = alle 20)"
         type: string
         default: ""
-  schedule:
-    # Taeglich 23:40 UTC = 01:40 MESZ Folgetag (Sommer) / 00:40 MEZ (Winter).
-    # Bewusst 30 min NACH dem geo-visibility-tool-Nightly, damit sich beide
-    # Repos die LLM-API-Keys nicht gleichzeitig in die Rate-Limits laufen.
-    # GitHub-Free-Tier verzoegert scheduled Jobs typisch 4-8h - mit Trigger
-    # gegen 01:10 nachts ist der Lauf realistisch zwischen 05:00 und 09:00 MESZ
-    # fertig, also vor Buero-Start.
-    - cron: "40 23 * * *"
 
 permissions:
   contents: write

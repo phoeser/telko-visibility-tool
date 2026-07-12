@@ -1,5 +1,35 @@
 {
-  "generated_at": "2026-07-12T01:18:28Z",
-  "count": 0,
-  "runs": []
+  "generated_at": "2026-07-12T06:00:03.505479+00:00",
+  "count": 1,
+  "runs": [
+    {
+      "run_id": "2026-07-12T01-28-39Z",
+      "file": "2026-07-12T01-28-39Z.json",
+      "started_at": "2026-07-12T01:28:39.127542+00:00",
+      "finished_at": "2026-07-12T06:00:03.259998+00:00",
+      "brand": "PŸUR",
+      "llms": [
+        "gemini"
+      ],
+      "products": [
+        "kabel-internet",
+        "dsl",
+        "glasfaser",
+        "tv",
+        "kombi"
+      ],
+      "prompts_total": 125,
+      "estimated_cost_usd": 0.0,
+      "brand_share_of_voice": 0.0,
+      "quality_grade": "red",
+      "quality_score": 19,
+      "quality_warnings": [
+        "3 von 3 LLMs ausgefallen: gemini, chatgpt, perplexity",
+        "nur 76% URLs erreichbar (1153/1516)",
+        "Why-Analyse übersprungen (kein Client)"
+      ],
+      "missing_ergo_followups": 0,
+      "missing_ergo_success": 0
+    }
+  ]
 }

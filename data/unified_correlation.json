@@ -1,0 +1,1452 @@
+{
+  "meta": {
+    "total_page_events": 1153,
+    "total_cockpit_events": 0,
+    "total_unified_events": 1153,
+    "total_enriched_events": 1153,
+    "total_runs": 1,
+    "lag_windows": [
+      1,
+      3,
+      7,
+      14
+    ],
+    "generated_at": "2026-07-12T06:00:03.497054Z"
+  },
+  "event_summary": {
+    "page_new": {
+      "count": 1153,
+      "brands": [
+        "1&1",
+        "O2",
+        "PŸUR",
+        "Telekom",
+        "Vodafone"
+      ],
+      "avg_magnitude": 1.0,
+      "best_lag_days": null,
+      "best_spearman_rho": null,
+      "impact": {}
+    }
+  },
+  "impact_ranking": [
+    {
+      "event_type": "page_new",
+      "count": 1153,
+      "brands": [
+        "1&1",
+        "O2",
+        "PŸUR",
+        "Telekom",
+        "Vodafone"
+      ],
+      "avg_magnitude": 1.0,
+      "best_lag_days": null,
+      "best_spearman_rho": null,
+      "impact": {}
+    }
+  ],
+  "correlation_matrix": {},
+  "dashboard_events": [
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/festnetz/isdn",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/gigabit-router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/nuernberg",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/tv-senderliste",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/DetailsSamsungBookCoverKeyboardSlim?lightbox=true",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/homeserver",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/muenster",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/geschaeftskunden/dsl",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/genre-tv",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-tarif-waehlen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/koeln",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/einrichten",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-installation",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/breitband-foerderung",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/schnelles-internet",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/telefon-und-internet-flat",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/anbieter-vergleich",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-anbieter",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/lte-router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/router-einstellungen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/hdtv",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/mannheim",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/tv-box",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/tv-app",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-angebote",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/hamburg",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/service-card-dsl-und-glasfaser",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/muenchen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/kindersicherung-router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/DetailsSamsungBookCoverKeyboardSlimUltra?lightbox=true",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/wuppertal",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-tarife",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/duesseldorf",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/guenstiger-internetanbieter",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-hannover",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-flex",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/5g-zu-hause",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/gigabit-internet",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-bestellen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/cinema",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/dsl",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/stuttgart",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-anschluss",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/verfuegbarkeit",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-verfuegbarkeit",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/mobile-dsl-flat",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/internet-flatrate",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-tarif-vergleich",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/DetailsLTERouter?lightbox=true",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/berlin",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/netz",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-bielefeld",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaserausbau-deutschland",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/frankfurt",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-muenchen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/young",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-verfuegbar-naechste-schritte",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/homeserver-speed-plus",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-preisvergleich",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/bremen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/dresden",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/internet-ohne-festnetz",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-umzug",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/hannover",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/handy/bundle",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/fritzbox",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/mobiler-wlan-router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/fernsehen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/wifi-7-router",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaseranschluss",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://mobile.1und1.de/tablets?type=tablets&cdpBundle=bundle-dcs-clear",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/dsl-kabel-glasfaser",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/festnetz/telefonanschluss",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/wie-entsteht-ein-internetanschluss",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/ausbau",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/leitung",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/router-mit-telefonanlage",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/festnetz/festnetzanschluss",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/homeserver-plus",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-leipzig",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-dortmund",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/festnetz/festnetzanbieter",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/telefonflat",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/fernsehen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/leipzig",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/internet-bestellen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/netzausbau/dsl-berlin",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/geraete",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/internet/internettarife",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/dsl-vertrag",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/hd-sender",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://dsl.1und1.de/wlan-repeater",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/iptv/zeitversetztes-fernsehen",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-geschwindigkeit",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    },
+    {
+      "timestamp": "2026-07-12T01-28-39Z",
+      "event_type": "page_new",
+      "brand": "1&1",
+      "product": null,
+      "source": "page_tracker",
+      "magnitude": 1.0,
+      "detail": {
+        "url": "https://www.1und1.de/glasfaser/kiel",
+        "summary": "Seite erstmalig erfasst.",
+        "similarity": 0.0,
+        "classification": null
+      }
+    }
+  ]
+}

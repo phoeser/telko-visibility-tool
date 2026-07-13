@@ -1,21 +1,21 @@
 {
   "meta": {
-    "total_page_events": 1153,
+    "total_page_events": 1264,
     "total_cockpit_events": 0,
-    "total_unified_events": 1153,
-    "total_enriched_events": 1153,
-    "total_runs": 1,
+    "total_unified_events": 1264,
+    "total_enriched_events": 1264,
+    "total_runs": 2,
     "lag_windows": [
       1,
       3,
       7,
       14
     ],
-    "generated_at": "2026-07-12T06:00:03.497054Z"
+    "generated_at": "2026-07-13T23:03:50.474970Z"
   },
   "event_summary": {
     "page_new": {
-      "count": 1153,
+      "count": 1232,
       "brands": [
         "1&1",
         "O2",
@@ -24,6 +24,18 @@
         "Vodafone"
       ],
       "avg_magnitude": 1.0,
+      "best_lag_days": null,
+      "best_spearman_rho": null,
+      "impact": {}
+    },
+    "page_change": {
+      "count": 32,
+      "brands": [
+        "O2",
+        "Telekom",
+        "Vodafone"
+      ],
+      "avg_magnitude": 0.077,
       "best_lag_days": null,
       "best_spearman_rho": null,
       "impact": {}
@@ -32,7 +44,7 @@
   "impact_ranking": [
     {
       "event_type": "page_new",
-      "count": 1153,
+      "count": 1232,
       "brands": [
         "1&1",
         "O2",
@@ -44,1409 +56,1652 @@
       "best_lag_days": null,
       "best_spearman_rho": null,
       "impact": {}
+    },
+    {
+      "event_type": "page_change",
+      "count": 32,
+      "brands": [
+        "O2",
+        "Telekom",
+        "Vodafone"
+      ],
+      "avg_magnitude": 0.077,
+      "best_lag_days": null,
+      "best_spearman_rho": null,
+      "impact": {}
     }
   ],
-  "correlation_matrix": {},
+  "correlation_matrix": {
+    "page_new__delta_share_of_voice__lag_1d": {
+      "event_type": "page_new",
+      "metric": "delta_share_of_voice",
+      "lag_days": 1,
+      "n_events": 79,
+      "spearman_rho": 1.0,
+      "avg_delta": 0.0,
+      "avg_magnitude": 1.0
+    },
+    "page_new__delta_appearance_rate__lag_1d": {
+      "event_type": "page_new",
+      "metric": "delta_appearance_rate",
+      "lag_days": 1,
+      "n_events": 79,
+      "spearman_rho": 0.5636,
+      "avg_delta": 0.860506,
+      "avg_magnitude": 1.0
+    },
+    "page_new__delta_citation_rate__lag_1d": {
+      "event_type": "page_new",
+      "metric": "delta_citation_rate",
+      "lag_days": 1,
+      "n_events": 79,
+      "spearman_rho": 1.0,
+      "avg_delta": 0.0,
+      "avg_magnitude": 1.0
+    },
+    "page_change__delta_share_of_voice__lag_1d": {
+      "event_type": "page_change",
+      "metric": "delta_share_of_voice",
+      "lag_days": 1,
+      "n_events": 32,
+      "spearman_rho": 0.5004,
+      "avg_delta": 0.0,
+      "avg_magnitude": 0.077
+    },
+    "page_change__delta_appearance_rate__lag_1d": {
+      "event_type": "page_change",
+      "metric": "delta_appearance_rate",
+      "lag_days": 1,
+      "n_events": 32,
+      "spearman_rho": 0.6784,
+      "avg_delta": 0.84375,
+      "avg_magnitude": 0.077
+    },
+    "page_change__delta_citation_rate__lag_1d": {
+      "event_type": "page_change",
+      "metric": "delta_citation_rate",
+      "lag_days": 1,
+      "n_events": 32,
+      "spearman_rho": 0.5004,
+      "avg_delta": 0.0,
+      "avg_magnitude": 0.077
+    }
+  },
   "dashboard_events": [
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Telekom",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.048900000000000055,
       "detail": {
-        "url": "https://www.1und1.de/festnetz/isdn",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.t-online.de/ratgeber/technik/computerzubehoer/id_85109944/wlan-router-test-fritz-boxen-von-avm-liegen-bei-stiftung-warentest-vorn.html",
+        "summary": "50 neue Zeilen, 51 entfernte Zeilen (Ähnlichkeit 95.1%).",
+        "similarity": 0.9511,
+        "classification": {
+          "error": "invalid json",
+          "raw": ""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03300000000000003,
       "detail": {
-        "url": "https://dsl.1und1.de/",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/entdecke-mehr-wildnis-in-der-neuen-geo-wild-mediathek-auf-gigatv-141718",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+        "similarity": 0.967,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/gigabit-router",
+        "url": "https://www.vodafone.de/featured/article/oscar-nominierte-filme-auf-gigatv-diese-6-oscar-anwaerter-solltest-du-dir-nicht-entgehen-lassen-88564",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/nuernberg",
+        "url": "https://www.vodafone.de/featured/article/das-gigabit-zeitalter-in-zwei-tagen-das-waren-die-innovation-days-2016-23079",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/tv-senderliste",
+        "url": "https://www.vodafone.de/featured/article/unsere-gigatv-tipps-zum-wochenende-diese-serien-und-filme-musst-du-unbedingt-sehen-87634",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.042100000000000026,
       "detail": {
-        "url": "https://mobile.1und1.de/DetailsSamsungBookCoverKeyboardSlim?lightbox=true",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/gigatv-volles-fernseh-und-streaming-programm-fuer-zuhause-58122",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.8%).",
+        "similarity": 0.9579,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/homeserver",
+        "url": "https://www.vodafone.de/featured/article/mit-raketenrucksack-troye-sivan-schau-hinter-die-kulissen-von-unserem-gigabit-tv-spot-20128",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/muenster",
+        "url": "https://www.vodafone.de/featured/article/das-gigabit-zeitalter-hat-auch-in-klassenzimmern-begonnen-21335",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.033499999999999974,
       "detail": {
-        "url": "https://www.1und1.de/geschaeftskunden/dsl",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-horror-fans-180571",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+        "similarity": 0.9665,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03280000000000005,
       "detail": {
-        "url": "https://www.1und1.de/iptv/genre-tv",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/replikanten-untote-und-crimelords-diese-gigatv-highlights-bekommst-du-im-februar-zu-sehen-36864",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+        "similarity": 0.9672,
+        "classification": {
+          "error": "invalid json",
+          "raw": "Here is the JSON requested:\n```json"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03639999999999999,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-tarif-waehlen",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/die-sci-fi-serie-devs-startet-bei-fox-alles-ueber-das-neue-gigatv-highlight-104735",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+        "similarity": 0.9636,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  "
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03369999999999995,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/koeln",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/teenage-mutant-ninja-turtles-mutant-mayhem-gewinnspiel-fanpaket-gigatv-heimkino-start-186689",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.6%).",
+        "similarity": 0.9663,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/einrichten",
+        "url": "https://www.vodafone.de/featured/article/geruestet-fuer-die-gigabit-gesellschaft-die-vodafone-innovation-days-2016-23025",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-installation",
+        "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-reality-tv-fans-179554",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/breitband-foerderung",
+        "url": "https://www.vodafone.de/featured/article/oscars-special-line-up-diese-oscar-nominierten-filme-kannst-du-dir-jetzt-auf-gigatv-anschauen-64652",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03590000000000004,
       "detail": {
-        "url": "https://dsl.1und1.de/schnelles-internet",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/hol-dir-die-top-kombi-gigatv-inkl-apple-tv-4k-und-mobilfunk-153208",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+        "similarity": 0.9641,
+        "classification": {
+          "error": "invalid json",
+          "raw": ""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03069999999999995,
       "detail": {
-        "url": "https://dsl.1und1.de/telefon-und-internet-flat",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/bvb-mediathek-gigatv-vodafone-248865",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+        "similarity": 0.9693,
+        "classification": {
+          "error": "invalid json",
+          "raw": ""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/anbieter-vergleich",
+        "url": "https://www.vodafone.de/featured/article/gigatv-statt-kino-so-koennte-sich-die-filmbranche-veraendern-111973",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03049999999999997,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-anbieter",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/gigatv-mit-apple-tv-4k-for-all-mankind-staffel-2-jetzt-exklusiv-bei-appletv-117560",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 97.0%).",
+        "similarity": 0.9695,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://mobile.1und1.de/lte-router",
+        "url": "https://www.vodafone.de/featured/article/bei-vodafone-gibts-das-volle-programm-hier-kommt-deine-gigatv-cable-senderuebersicht-94328",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/router-einstellungen",
+        "url": "https://www.vodafone.de/featured/article/gigatv-highlights-august-2025-236908",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03539999999999999,
       "detail": {
-        "url": "https://www.1und1.de/iptv/hdtv",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/volle-power-bei-gigatv-die-komplette-4-staffel-exklusiv-auf-abruf-36687",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.5%).",
+        "similarity": 0.9646,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  "
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/mannheim",
+        "url": "https://www.vodafone.de/featured/article/fiber-nodes-fuer-noch-mehr-highspeed-im-vodafone-festnetz-91656",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.24050000000000005,
       "detail": {
-        "url": "https://dsl.1und1.de/tv-box",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/festnetz/guenstiges-internet.html",
+        "summary": "120 neue Zeilen, 28 entfernte Zeilen (Ähnlichkeit 75.9%).",
+        "similarity": 0.7595,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/tv-app",
+        "url": "https://www.vodafone.de/featured/article/fernsehen-im-wohnmobil-mit-und-ohne-sat-schuessel-179334",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03249999999999997,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-angebote",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/von-der-katze-bis-zum-wendler-die-groessten-reality-tv-stars-im-deutschen-fernsehen-105160",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.8%).",
+        "similarity": 0.9675,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/hamburg",
+        "url": "https://www.vodafone.de/featured/article/13th-street-shocking-short-2020-mit-special-content-bei-vodafone-gigatv-103838",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/service-card-dsl-und-glasfaser",
+        "url": "https://www.vodafone.de/featured/article/welcome-to-the-jungle-die-gigatv-serien-und-filmhighlights-im-mai-43069",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/muenchen",
+        "url": "https://www.vodafone.de/featured/article/fernsehen-aus-dem-netz-internet-tv-anbieter-im-grossen-vergleich-177449",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/kindersicherung-router",
+        "url": "https://www.vodafone.de/featured/article/mysterioese-telefonnummer-sperren-wie-geht-das-bei-meinem-router-36265",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/router",
+        "url": "https://www.vodafone.de/featured/article/green-gigabit-im-vodafone-netz-surfst-du-mit-100-prozent-gruenstrom-138988",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://mobile.1und1.de/DetailsSamsungBookCoverKeyboardSlimUltra?lightbox=true",
+        "url": "https://www.vodafone.de/featured/article/highspeed-internet-auf-dem-land-wie-das-bayerische-icking-zum-digitalen-leuchtturm-wird-28858",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser",
+        "url": "https://www.vodafone.de/featured/article/100-mbits-wie-schnell-179643",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/wuppertal",
+        "url": "https://www.vodafone.de/featured/article/welcher-vodafone-glasfaser-tarif-passt-zu-dir-177009",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-tarife",
+        "url": "https://www.vodafone.de/featured/article/mecklenburg-vorpommern-startet-ins-gigabit-zeitalter-56826",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/duesseldorf",
+        "url": "https://www.vodafone.de/featured/article/aktion-deutschland-hilft-vodafone-versorgt-180-tiny-houses-im-ahrtal-mit-internet-und-gigatv-146086",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.041100000000000025,
       "detail": {
-        "url": "https://dsl.1und1.de/guenstiger-internetanbieter",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/doppelpack-zur-rueckrunde-sky-fussball-bundesliga-paket-jetzt-bei-gigatv-inklusive-31666",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.9%).",
+        "similarity": 0.9589,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-hannover",
+        "url": "https://www.vodafone.de/featured/article/angebot-gigatv-gratis-sichern-geschenkt-rabatt-129550",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.033299999999999996,
       "detail": {
-        "url": "https://www.1und1.de/iptv",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/john-wick-gewinnspiel-vodafone-verlost-fanpakete-zum-start-von-kapitel-4-auf-gigatv-184142",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+        "similarity": 0.9667,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type\":"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-flex",
+        "url": "https://www.vodafone.de/featured/article/kabel-glasfasernetz-das-halbe-gigabit-jetzt-fuer-5-millionen-haushalte-41412",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/5g-zu-hause",
+        "url": "https://www.vodafone.de/featured/article/maschinennetz-fuer-dein-smart-home-panasonic-und-vodafone-ruesten-haushalte-fuer-das-gigabit-zeitalter-auf-53131",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/gigabit-internet",
+        "url": "https://www.vodafone.de/featured/article/die-coolsten-raumschiffe-aus-film-und-fernsehen-99030",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.031100000000000017,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-bestellen",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/fernsehen-ueber-glasfaser-alle-vorteile-im-ueberblick-180069",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+        "similarity": 0.9689,
+        "classification": {
+          "error": "invalid json",
+          "raw": ""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/cinema",
+        "url": "https://www.vodafone.de/featured/article/gigaschnell-das-halbe-gigabit-rast-jetzt-auch-durchs-kabel-25954",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/dsl",
+        "url": "https://www.vodafone.de/featured/article/the-future-is-exciting-futurist-thomas-frey-prophezeit-aufregendes-gigabit-zeitalter-41660",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/stuttgart",
+        "url": "https://www.vodafone.de/featured/article/niedersachsen-wird-gigabit-land-vodafone-schliesst-digital-allianz-52751",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-anschluss",
+        "url": "https://www.vodafone.de/featured/article/vodafones-gigakombi-kampagne-wird-zum-ar-erlebnis-interaktive-riesenposter-gewinnspiel-183920",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/verfuegbarkeit",
+        "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-kinder-kids-inhalte-auf-gigatv-177662",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-verfuegbarkeit",
+        "url": "https://www.vodafone.de/featured/article/cartoons-ohne-ende-adult-swim-findet-neues-zuhause-bei-gigatv-144934",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/mobile-dsl-flat",
+        "url": "https://www.vodafone.de/featured/article/bob-marley-milli-vanilli-jamie-oliver-gigatv-highlights-im-mai-198802",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/internet-flatrate",
+        "url": "https://www.vodafone.de/featured/article/humble-monthly-bundle-wird-zu-humble-choice-alle-infos-83348",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-tarif-vergleich",
+        "url": "https://www.vodafone.de/featured/article/gigatv-highlights-mai-2026-253754",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://mobile.1und1.de/DetailsLTERouter?lightbox=true",
+        "url": "https://www.vodafone.de/featured/article/gigabit-start-in-thueringen-erfurt-wird-erste-gigabit-city-des-bundeslandes-57385",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/berlin",
+        "url": "https://www.vodafone.de/featured/article/vodafone-im-connect-festnetz-check-194264",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/netz",
+        "url": "https://www.vodafone.de/featured/article/brojects-zwei-brueder-bauen-um-geniesse-das-do-it-yourself-highlight-auf-gigatv-99936",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-bielefeld",
+        "url": "https://www.vodafone.de/featured/article/jetzt-kommt-die-gigabitrepublik-eu-gibt-gruenes-licht-fuer-unitymedia-uebernahme-74366",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaserausbau-deutschland",
+        "url": "https://www.vodafone.de/featured/article/mit-highspeed-in-die-digitalisierung-schon-fast-5-millionen-tv-haushalte-im-vodafone-kabelnetz-volldigitalisiert-59370",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/frankfurt",
+        "url": "https://www.vodafone.de/featured/article/gigatv-die-filmhighlights-zum-valentinstag-63899",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-muenchen",
+        "url": "https://www.vodafone.de/hilfe/router-hitze-schutz.html",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/young",
+        "url": "https://www.vodafone.de/featured/article/senderumstellung-im-vodafone-kabelnetz-so-geniesst-du-weiterhin-maximale-tv-vielfalt-130939",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-verfuegbar-naechste-schritte",
+        "url": "https://www.vodafone.de/featured/article/umschalten-auf-zukunft-digitalumstieg-fuer-kabel-tv-in-nuernberg-2-41205",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/homeserver-speed-plus",
+        "url": "https://www.vodafone.de/featured/article/reggie-watts-der-musiker-hinter-der-vodafone-werbung-zur-neuen-gigakombi-kampagne-185582",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.032399999999999984,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-preisvergleich",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/jedis-superhelden-und-ein-ganz-lieber-stier-die-gigatv-serien-und-filmhighlights-im-april-40433",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.8%).",
+        "similarity": 0.9676,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/bremen",
+        "url": "https://www.vodafone.de/featured/article/kabel-hd-sender-freischalten-178519",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/dresden",
+        "url": "https://www.vodafone.de/featured/article/sichere-unterhaltung-fuer-kids-gigatv-inklusive-der-kinderecke-jetzt-mit-dem-fsm-pruefsiegel-zertifiziert-94622",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03259999999999996,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/internet-ohne-festnetz",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/stalk-bei-sony-channel-die-erste-folge-als-preview-und-die-komplette-staffel-bei-vodafone-gigatv-122915",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+        "similarity": 0.9674,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-umzug",
+        "url": "https://www.vodafone.de/featured/article/freie-routerwahl-vodafone-verraet-was-du-jetzt-wissen-musst-22247",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.030299999999999994,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/hannover",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/hollywood-aliens-und-die-berlinale-das-sind-deine-gigatv-film-und-serien-highlights-im-februar-121932",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 97.0%).",
+        "similarity": 0.9697,
+        "classification": {
+          "error": "invalid json",
+          "raw": "Here is the JSON requested:\n```json"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/handy/bundle",
+        "url": "https://www.vodafone.de/featured/article/kabel-glasfasernetz-ueber-20-millionen-haushalte-surfen-schon-heute-mit-dem-halben-gigabit-79883",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/fritzbox",
+        "url": "https://www.vodafone.de/featured/article/dinos-burger-und-dumbledores-geheimnisse-das-sind-deine-gigatv-highlights-im-mai-154411",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03149999999999997,
       "detail": {
-        "url": "https://mobile.1und1.de/mobiler-wlan-router",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/disney-plus-geschenkt-mit-gigatv-angebot-vodafone-215261",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+        "similarity": 0.9685,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.035599999999999965,
       "detail": {
-        "url": "https://dsl.1und1.de/fernsehen",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/tnt-serie-entdecke-deine-neue-lieblingsserie-mit-gigatv-106526",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+        "similarity": 0.9644,
+        "classification": {
+          "error": "invalid json",
+          "raw": "Here is the JSON requested:\n```json"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/wifi-7-router",
+        "url": "https://www.vodafone.de/featured/article/tschuess-primetime-streamingdienst-vs-klassisches-fernsehen-14250",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.04300000000000004,
       "detail": {
-        "url": "https://www.1und1.de/glasfaseranschluss",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/diese-zwei-seltsamen-videospiele-will-der-john-wick-macher-ins-fernsehen-bringen-100358",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.7%).",
+        "similarity": 0.957,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://mobile.1und1.de/tablets?type=tablets&cdpBundle=bundle-dcs-clear",
+        "url": "https://www.vodafone.de/featured/article/mit-gigaspeed-in-die-gigabit-zukunft-vodafone-bringt-ein-halbes-gigabit-aufs-smartphone-23186",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/dsl-kabel-glasfaser",
+        "url": "https://www.vodafone.de/featured/article/was-ist-kabel-internet-die-uebertragungstechnologie-einfach-erklaert-180483",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/festnetz/telefonanschluss",
+        "url": "https://www.vodafone.de/featured/article/gigatv-entertainmentmax-das-perfekte-all-in-one-angebot-fuer-beste-unterhaltung-115873",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/wie-entsteht-ein-internetanschluss",
+        "url": "https://www.vodafone.de/featured/article/das-vodafone-netz-der-zukunft-boost-fuer-das-festnetz-88848",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/ausbau",
+        "url": "https://www.vodafone.de/featured/article/gigatv-highlights-juni-2026-254586",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/leitung",
+        "url": "https://www.vodafone.de/featured/article/vodafone-router-tauschen-178224",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/router-mit-telefonanlage",
+        "url": "https://www.vodafone.de/featured/article/google-pixel-7-und-7-pro-im-hands-on-smarte-kamera-starke-leistung-und-attraktives-bundle-163921",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/festnetz/festnetzanschluss",
+        "url": "https://www.vodafone.de/featured/article/neu-auf-vodafone-gigatv-ultrascharfe-vod-inhalte-und-noch-mehr-livesport-auf-allen-geraeten-109138",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/homeserver-plus",
+        "url": "https://www.vodafone.de/featured/article/beste-unterhaltung-mit-dem-sky-fussball-bundesliga-paket-jetzt-bei-gigatv-inklusive-74847",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-leipzig",
+        "url": "https://www.vodafone.de/featured/article/reibungsloses-setup-fuer-deinen-kabelanschluss-14466",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-dortmund",
+        "url": "https://www.vodafone.de/featured/article/noch-mehr-gigaspeed-anschluesse-hier-rauscht-jetzt-das-halbe-gigabit-durchs-kabel-50918",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/festnetz/festnetzanbieter",
+        "url": "https://www.vodafone.de/featured/article/gigatv-highlights-november-2025-242863",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03369999999999995,
       "detail": {
-        "url": "https://dsl.1und1.de",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/super-bowl-2020-bei-gigatv-im-stream-so-schaust-du-das-nfl-finale-87757",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.6%).",
+        "similarity": 0.9663,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  "
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/telefonflat",
+        "url": "https://www.vodafone.de/featured/article/gigabit-ausbau-landkreis-helmstedt-bekommt-gigaschnelles-glasfasernetz-53675",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03949999999999998,
       "detail": {
-        "url": "https://www.1und1.de/fernsehen",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/nokia-streaming-box-8000-android-10-vs-gigatv-115986",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.0%).",
+        "similarity": 0.9605,
+        "classification": {
+          "error": "invalid json",
+          "raw": "{\n  \"type"
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/leipzig",
+        "url": "https://www.vodafone.de/featured/article/gigatv-mag-guide-vodafone-89221",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/internet-bestellen",
+        "url": "https://www.vodafone.de/featured/article/star-wars-und-vodafone-wecken-die-macht-der-gigabit-generation-83525",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/netzausbau/dsl-berlin",
+        "url": "https://www.vodafone.de/featured/article/baustelle-unsere-streaming-und-gigatv-tipps-fuer-das-wochenende-diese-serien-und-filme-musst-du-sehen-87954",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/geraete",
+        "url": "https://www.vodafone.de/featured/article/netzausbau-erste-ausbaustufe-zum-gigabit-internet-startet-cv-47804",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
-      "event_type": "page_new",
-      "brand": "1&1",
+      "timestamp": "2026-07-13T18-35-25Z",
+      "event_type": "page_change",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
-      "magnitude": 1.0,
+      "magnitude": 0.03510000000000002,
       "detail": {
-        "url": "https://www.1und1.de/internet/internettarife",
-        "summary": "Seite erstmalig erfasst.",
-        "similarity": 0.0,
-        "classification": null
-      }
+        "url": "https://www.vodafone.de/featured/article/takeover-voll-vertauscht-die-lochis-auf-gigatv-118470",
+        "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.5%).",
+        "similarity": 0.9649,
+        "classification": {
+          "error": "invalid json",
+          "raw": ""
+        }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/dsl-vertrag",
+        "url": "https://www.vodafone.de/featured/article/sag-hi-zum-neuen-superwlan-hol-dir-die-intelligente-empfangs-technologie-fuer-deinen-router-161750",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/hd-sender",
+        "url": "https://www.vodafone.de/featured/article/vodafone-boostet-dein-dsl-gratis-14128",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://dsl.1und1.de/wlan-repeater",
+        "url": "https://www.vodafone.de/featured/article/nbc-universal-zeigt-aktuelle-kinofilme-jetzt-auf-gigatv-94910",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/iptv/zeitversetztes-fernsehen",
+        "url": "https://www.vodafone.de/featured/article/black-friday-deals-auf-gigatv-aktuelle-blockbuster-zum-schnaeppchenpreis-144402",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/magazin/internet-zuhause/glasfaser-geschwindigkeit",
+        "url": "https://www.vodafone.de/featured/article/dfb-tv-bei-gigatv-fussball-sender-254576",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     },
     {
-      "timestamp": "2026-07-12T01-28-39Z",
+      "timestamp": "2026-07-13T18-35-25Z",
       "event_type": "page_new",
-      "brand": "1&1",
+      "brand": "Vodafone",
       "product": null,
       "source": "page_tracker",
       "magnitude": 1.0,
       "detail": {
-        "url": "https://www.1und1.de/glasfaser/kiel",
+        "url": "https://www.vodafone.de/featured/article/was-ist-schneller-5g-oder-glasfaser-unterschiede-194548",
         "summary": "Seite erstmalig erfasst.",
         "similarity": 0.0,
         "classification": null
-      }
+      },
+      "sov_deltas": {}
     }
   ]
 }

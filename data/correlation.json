@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_events": 1153,
-    "total_runs": 1,
-    "generated_at": "2026-07-12T06:00:03.440904Z"
+    "total_events": 1264,
+    "total_runs": 2,
+    "generated_at": "2026-07-13T23:03:50.372448Z"
   },
   "events": [
     {
@@ -22004,6 +22004,5610 @@
       "removed_lines": [],
       "classification": null,
       "impact_t1": null,
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "O2",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.o2online.de/tv/",
+      "event_type": "change",
+      "summary": "8 neue Zeilen, 6 entfernte Zeilen (Ähnlichkeit 98.7%).",
+      "similarity": 0.9869,
+      "added_lines_count": 8,
+      "removed_lines_count": 6,
+      "added_lines": [
+        "30 Tage kostenlos testen",
+        "Alle Pakete ansehen",
+        "Für O",
+        "Mobilfunk- & Internet-Kund:innen",
+        "TV einfach zum Tarif dazubuchen und sofort losstreamen.",
+        "Passendes TV-Paket wählen",
+        "O",
+        "2"
+      ],
+      "removed_lines": [
+        "Pakete vergleichen",
+        "30 Tage gratis starten",
+        "Exklusiv für O",
+        "Kund:innen",
+        "O₂ TV bündelt Fernsehen, Mediatheken und je nach Paket auch Streaming‑Angebote in einem Paket.",
+        "Passendes TV Paket wählen"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.07142857142857142,
+          "appearance_rate": 0.32,
+          "citation_rate": 0.0,
+          "avg_rank": 11.38,
+          "mentions": 24,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.32,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.telekom.de/hilfe/internet-telefonie/wechsel/kabelanschluss",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.25986078886310904,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 7.38,
+          "mentions": 112,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.t-online.de/sport/fussball/wm/id_101203968/wm-uebertragung-wm-2026-bei-den-tv-sendern-ard-zdf-und-magentatv.html",
+      "event_type": "change",
+      "summary": "36 neue Zeilen, 38 entfernte Zeilen (Ähnlichkeit 79.9%).",
+      "similarity": 0.7993,
+      "added_lines_count": 36,
+      "removed_lines_count": 38,
+      "added_lines": [
+        "Iran spottet über Trump-Ankündigung",
+        "Guardiola winkt Job als Nationaltrainer",
+        "Lewis Hamilton: Foto mit neuer Freundin",
+        "Warnung vor neuer Betrugsmasche",
+        "Hollywoodstar hat Deutsche geheiratet",
+        "Benzin wird knapp – Fäuste fliegen",
+        "Rekordzahl an AKW abgeschaltet",
+        "Schlagerstar baut zweites Standbein auf",
+        "Touristen hinterlassen zerstörtes Zimmer",
+        "Sportstar postet Bikini-Video",
+        "Bayern-Star muss wohl doch nicht gehen",
+        "Lidl: dringende Warnung an alle Kunden",
+        "Guardiola wohl Wunschkandidat für Nationaltrainer-Posten",
+        "Ein Tief aus dem Norden zerreißt die Hitzeglocke",
+        "Macron überrascht mit Ankündigung zur Ukraine",
+        "Argentinien in dunkelblau",
+        "Das weckt keine guten Erinnerungen bei den Engländern",
+        "Viermaliger Weltmeister will Neustart",
+        "Guardiola wohl Wunschkandidat für Nationaltrainer-Posten",
+        "Treffen mit Red Bull",
+        "Klopp-Verpflichtung beim DFB: neue Details zum Zeitplan",
+        "Schweigeminute vor Halbfinale zwischen Frankreich und Spanien",
+        "Nikolai Stübner",
+        "Lukas Grybowski",
+        "\"Sie denken, ich mache Witze\"",
+        "WM-Experte kündigt TV-Aus an",
+        "Ursprünglich für die WM vorgesehen",
+        "Niederländischer Schiedsrichter stirbt mit 38",
+        "\"Er denkt, über ihm ist nur noch Gott\"",
+        "Kann die Uefa Infantino zum Sturz bringen?"
+      ],
+      "removed_lines": [
+        "Zeitung setzt Merz auf Todesliste",
+        "WM: Rot und Tränen bei Ex-Bundesliga-Star",
+        "Felix Sturm verliert seinen letzten Kampf",
+        "Geiselnahme: Identität des Täters geklärt",
+        "Norwegens Trainer rastet aus",
+        "Grüner Ex-Verweigerer wird Reservist",
+        "Schöneberger zeigt sich im Bikini",
+        "Trump: Sicherheitsrisiko Air Force One?",
+        "Nach Ehe-Aus: RTL-Star ist schwanger",
+        "Ausnahmezustand in Passagierflugzeug",
+        "Badeunfall: Zeugen sind machtlos",
+        "Liebe mit jüngerer Frau: Star schockiert",
+        "Argentinien kämpft sich nach Rot-Drama ins WM-Halbfinale",
+        "Iranische Zeitung setzt Merz auf Todesliste",
+        "Box-Champion Felix Sturm verliert seinen letzten Kampf",
+        "Dramatisches WM-Aus",
+        "Ex-Bundesliga-Star sieht nach Schwalbe Rot – und weint bitterlich",
+        "\"Seit Beginn hat jeder auf dieses Spiel gewartet\"",
+        "S. Flinder",
+        "N. Glania",
+        ",",
+        "K. Steinke",
+        "Verlängerung gegen Schweiz",
+        "Argentinien kämpft sich nach Rot-Drama ins WM-Halbfinale",
+        "Mit nur 25 Jahren",
+        "Südafrika trauert: WM-Teilnehmer ist tot",
+        "Torhüter kehrte zur WM ins DFB-Team zurück",
+        "Matthäus fällt ein hartes Neuer-Urteil",
+        "Im WM-Viertelfinale",
+        "Strittige Szene: England-Treffer fällt unter kuriosen Umständen"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.4494047619047619,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 10.55,
+          "mentions": 151,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://t-online.de/ratgeber/technik/tv-und-sat/id_90430280/die-besten-sat-receiver-fuer-klares-satellitenfernsehen.html",
+      "event_type": "change",
+      "summary": "45 neue Zeilen, 46 entfernte Zeilen (Ähnlichkeit 93.4%).",
+      "similarity": 0.9338,
+      "added_lines_count": 45,
+      "removed_lines_count": 46,
+      "added_lines": [
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €",
+        "199,90 €",
+        "-50%",
+        "Naturtreu Wasserbalance",
+        "24,99 €",
+        "26,99 €",
+        "-7%",
+        "Marc O'Polo Shorts",
+        "39,95 €",
+        "67,95 €",
+        "-41%",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €"
+      ],
+      "removed_lines": [
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €",
+        "130,00 €",
+        "-40%",
+        "Liebeskind Tasche mit Code SPECIAL20",
+        "71,95 €",
+        "149,90 €",
+        "-52%",
+        "Shark ChillPill 3-in-1 Ventilator",
+        "109,99 €",
+        "139,99 €",
+        "-21%",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.4494047619047619,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 10.55,
+          "mentions": 151,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "glasfaser",
+        "kabel-internet"
+      ],
+      "url": "https://www.telekom.de/hilfe/internet-telefonie/glasfaser/kompatible-router",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.2849673202614379,
+          "appearance_rate": 0.9,
+          "citation_rate": 0.0,
+          "avg_rank": 6.625,
+          "mentions": 218,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.9,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://t-online.de/ratgeber/technik/computerzubehoer/id_85109944/wlan-router-test-fritz-boxen-von-avm-liegen-bei-stiftung-warentest-vorn.html",
+      "event_type": "change",
+      "summary": "50 neue Zeilen, 51 entfernte Zeilen (Ähnlichkeit 95.1%).",
+      "similarity": 0.9511,
+      "added_lines_count": 50,
+      "removed_lines_count": 51,
+      "added_lines": [
+        "Angebot bei Cyberport ansehen",
+        "157,90 €",
+        "279,99 €",
+        "-15%",
+        "Angebot bei Cyberport ansehen",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €",
+        "199,90 €",
+        "-50%",
+        "Naturtreu Wasserbalance",
+        "24,99 €",
+        "26,99 €",
+        "-7%",
+        "Marc O'Polo Shorts",
+        "39,95 €",
+        "67,95 €",
+        "-41%",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker"
+      ],
+      "removed_lines": [
+        "Angebot bei Expert ansehen",
+        "149,00 €",
+        "281,57 €",
+        "-14%",
+        "Angebot bei Expert ansehen",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €",
+        "130,00 €",
+        "-40%",
+        "Liebeskind Tasche mit Code SPECIAL20",
+        "71,95 €",
+        "149,90 €",
+        "-52%",
+        "Shark ChillPill 3-in-1 Ventilator",
+        "109,99 €",
+        "139,99 €",
+        "-21%",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  "
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.25986078886310904,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 7.38,
+          "mentions": 112,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "glasfaser"
+      ],
+      "url": "https://www.telekom.de/pdf/glasfaser-polnisch.pdf",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.31736526946107785,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 5.87,
+          "mentions": 106,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "glasfaser"
+      ],
+      "url": "https://www.telekom.de/pdf/glasfaser-infopaket.pdf",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.31736526946107785,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 5.87,
+          "mentions": 106,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.t-online.de/ratgeber/technik/tv-und-sat/id_90430280/die-besten-sat-receiver-fuer-klares-satellitenfernsehen.html",
+      "event_type": "change",
+      "summary": "45 neue Zeilen, 46 entfernte Zeilen (Ähnlichkeit 93.4%).",
+      "similarity": 0.9338,
+      "added_lines_count": 45,
+      "removed_lines_count": 46,
+      "added_lines": [
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €",
+        "199,90 €",
+        "-50%",
+        "Naturtreu Wasserbalance",
+        "24,99 €",
+        "26,99 €",
+        "-7%",
+        "Marc O'Polo Shorts",
+        "39,95 €",
+        "67,95 €",
+        "-41%",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €"
+      ],
+      "removed_lines": [
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €",
+        "130,00 €",
+        "-40%",
+        "Liebeskind Tasche mit Code SPECIAL20",
+        "71,95 €",
+        "149,90 €",
+        "-52%",
+        "Shark ChillPill 3-in-1 Ventilator",
+        "109,99 €",
+        "139,99 €",
+        "-21%",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.4494047619047619,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 10.55,
+          "mentions": 151,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.t-online.de/sport/fussball/wm/id_101203968/wm-2026-live-bei-tv-sendern-ard-zdf-und-magentatv.html",
+      "event_type": "change",
+      "summary": "36 neue Zeilen, 38 entfernte Zeilen (Ähnlichkeit 79.9%).",
+      "similarity": 0.7993,
+      "added_lines_count": 36,
+      "removed_lines_count": 38,
+      "added_lines": [
+        "Iran spottet über Trump-Ankündigung",
+        "Guardiola winkt Job als Nationaltrainer",
+        "Lewis Hamilton: Foto mit neuer Freundin",
+        "Warnung vor neuer Betrugsmasche",
+        "Hollywoodstar hat Deutsche geheiratet",
+        "Benzin wird knapp – Fäuste fliegen",
+        "Rekordzahl an AKW abgeschaltet",
+        "Schlagerstar baut zweites Standbein auf",
+        "Touristen hinterlassen zerstörtes Zimmer",
+        "Sportstar postet Bikini-Video",
+        "Bayern-Star muss wohl doch nicht gehen",
+        "Lidl: dringende Warnung an alle Kunden",
+        "Guardiola wohl Wunschkandidat für Nationaltrainer-Posten",
+        "Ein Tief aus dem Norden zerreißt die Hitzeglocke",
+        "Macron überrascht mit Ankündigung zur Ukraine",
+        "Argentinien in dunkelblau",
+        "Das weckt keine guten Erinnerungen bei den Engländern",
+        "Viermaliger Weltmeister will Neustart",
+        "Guardiola wohl Wunschkandidat für Nationaltrainer-Posten",
+        "Treffen mit Red Bull",
+        "Klopp-Verpflichtung beim DFB: neue Details zum Zeitplan",
+        "Schweigeminute vor Halbfinale zwischen Frankreich und Spanien",
+        "Nikolai Stübner",
+        "Lukas Grybowski",
+        "\"Sie denken, ich mache Witze\"",
+        "WM-Experte kündigt TV-Aus an",
+        "Ursprünglich für die WM vorgesehen",
+        "Niederländischer Schiedsrichter stirbt mit 38",
+        "\"Er denkt, über ihm ist nur noch Gott\"",
+        "Kann die Uefa Infantino zum Sturz bringen?"
+      ],
+      "removed_lines": [
+        "Zeitung setzt Merz auf Todesliste",
+        "WM: Rot und Tränen bei Ex-Bundesliga-Star",
+        "Felix Sturm verliert seinen letzten Kampf",
+        "Geiselnahme: Identität des Täters geklärt",
+        "Norwegens Trainer rastet aus",
+        "Grüner Ex-Verweigerer wird Reservist",
+        "Schöneberger zeigt sich im Bikini",
+        "Trump: Sicherheitsrisiko Air Force One?",
+        "Nach Ehe-Aus: RTL-Star ist schwanger",
+        "Ausnahmezustand in Passagierflugzeug",
+        "Badeunfall: Zeugen sind machtlos",
+        "Liebe mit jüngerer Frau: Star schockiert",
+        "Argentinien kämpft sich nach Rot-Drama ins WM-Halbfinale",
+        "Iranische Zeitung setzt Merz auf Todesliste",
+        "Box-Champion Felix Sturm verliert seinen letzten Kampf",
+        "Dramatisches WM-Aus",
+        "Ex-Bundesliga-Star sieht nach Schwalbe Rot – und weint bitterlich",
+        "\"Seit Beginn hat jeder auf dieses Spiel gewartet\"",
+        "S. Flinder",
+        "N. Glania",
+        ",",
+        "K. Steinke",
+        "Verlängerung gegen Schweiz",
+        "Argentinien kämpft sich nach Rot-Drama ins WM-Halbfinale",
+        "Mit nur 25 Jahren",
+        "Südafrika trauert: WM-Teilnehmer ist tot",
+        "Torhüter kehrte zur WM ins DFB-Team zurück",
+        "Matthäus fällt ein hartes Neuer-Urteil",
+        "Im WM-Viertelfinale",
+        "Strittige Szene: England-Treffer fällt unter kuriosen Umständen"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.4494047619047619,
+          "appearance_rate": 0.96,
+          "citation_rate": 0.0,
+          "avg_rank": 10.55,
+          "mentions": 151,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.96,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.telekom.de/optionsuebersicht/festnetz/webhosting",
+      "event_type": "change",
+      "summary": "0 neue Zeilen, 36 entfernte Zeilen (Ähnlichkeit 23.2%).",
+      "similarity": 0.232,
+      "added_lines_count": 0,
+      "removed_lines_count": 36,
+      "added_lines": [],
+      "removed_lines": [
+        "Cookies und ähnliche Technologien",
+        "Wir setzen Cookies und ähnliche Technologien",
+        "(einschließlich",
+        ")",
+        "auf unserer Website ein, um Informationen auf Ihrem Endgerät zu speichern, auszulesen und weiterzuverarbeiten. Dadurch verbessern wir Ihr Erlebnis, analysieren den Traffic auf der Website und zeigen I",
+        "Wenn Sie “Nur erforderliche” wählen, akzeptieren Sie nur Cookies, die zum richtigen Funktionieren unserer Website nötig sind. “Alle akzeptieren” bedeutet, dass Sie den Zugriff auf Informationen auf Ih",
+        "Weitere Informationen finden Sie im Datenschutzhinweis und in der Partnerliste.",
+        "Nutzung der Utiq-Technologie, unterstützt durch Ihren Telekommunikationsanbieter",
+        "Wir, Telekom Deutschland GmbH, verwenden die Utiq-Technologie für digitales Marketing oder Analysen (wie in dieser Einwilligungserklärung beschrieben). Dies geschieht auf Basis Ihrer Surfaktivitäten a",
+        "unseren Webseiten",
+        "(jedoch nur, wenn Sie eine",
+        "unterstützte Internetverbindung",
+        "eines teilnehmenden Telekommunikationsanbieters nutzen und auf jeder Webseite Ihre Einwilligung geben).",
+        "Die Utiq-Technologie ist auf den Schutz der Privatsphäre ausgerichtet, indem sie Ihnen Wahlmöglichkeiten und Kontrolle gibt.",
+        "Die Technologie verwendet eine Kennung, die von Ihrem",
+        "Telekommunikationsanbieter",
+        "auf Grundlage Ihrer IP-Adresse und einer Referenz zu Ihrem Kundenkonto (z. B. der Telefonnummer) erstellt wird.",
+        "Die Kennung wird der jeweiligen Internetverbindung zugewiesen, so dass jeder Nutzer, der diese Verbindung mit seinem Gerät nutzt und der Utiq-Technologie zustimmt, die gleiche Kennung erhält. Typische",
+        "werden bei einer",
+        "Festnetzverbindung",
+        "(z. B. Wi-Fi) das Marketing oder die Analysen auf der Grundlage der Surfaktivitäten aller Haushaltsmitglieder durchgeführt, die ihre Einwilligung gegeben haben;",
+        "ist bei einer",
+        "Mobilfunkverbindung",
+        "das Marketing stärker personalisiert, da es nur auf dem Surfverhalten des einzelnen mobilen Nutzers basiert.",
+        "Mit Ihrer Einwilligung bestätigen Sie, dass Sie die Erlaubnis des Anschlussinhabers haben, die Utiq-Technologie auf dieser Internetverbindung zu aktivieren.",
+        "Sie können diese Einwilligung jederzeit über „Utiq verwalten“ unten auf dieser Webseite oder im",
+        "Datenschutzportal von Utiq („consenthub“)",
+        "widerrufen. Weitere Informationen finden Sie in der",
+        "Datenschutzerklärung von Utiq",
+        "."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.25757575757575757,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 5.26,
+          "mentions": 102,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Telekom",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.t-online.de/ratgeber/technik/computerzubehoer/id_85109944/wlan-router-test-fritz-boxen-von-avm-liegen-bei-stiftung-warentest-vorn.html",
+      "event_type": "change",
+      "summary": "50 neue Zeilen, 51 entfernte Zeilen (Ähnlichkeit 95.1%).",
+      "similarity": 0.9511,
+      "added_lines_count": 50,
+      "removed_lines_count": 51,
+      "added_lines": [
+        "Angebot bei Cyberport ansehen",
+        "157,90 €",
+        "279,99 €",
+        "-15%",
+        "Angebot bei Cyberport ansehen",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker",
+        "33,99 €",
+        "55,99 €",
+        "-39%",
+        "Tommy Hilfiger Tasche mit Code DEAL10",
+        "98,99 €",
+        "199,90 €",
+        "-50%",
+        "Naturtreu Wasserbalance",
+        "24,99 €",
+        "26,99 €",
+        "-7%",
+        "Marc O'Polo Shorts",
+        "39,95 €",
+        "67,95 €",
+        "-41%",
+        "Columbia Kulturtasche mit Code DEAL10",
+        "17,99 €",
+        "39,99 €",
+        "-55%",
+        "Fila Chunky Sneaker"
+      ],
+      "removed_lines": [
+        "Angebot bei Expert ansehen",
+        "149,00 €",
+        "281,57 €",
+        "-14%",
+        "Angebot bei Expert ansehen",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200",
+        "99,99 €",
+        "149,99 €",
+        "-33%",
+        "Ecco Gruuv Sol Damen Ledersandale",
+        "77,95 €",
+        "130,00 €",
+        "-40%",
+        "Liebeskind Tasche mit Code SPECIAL20",
+        "71,95 €",
+        "149,90 €",
+        "-52%",
+        "Shark ChillPill 3-in-1 Ventilator",
+        "109,99 €",
+        "139,99 €",
+        "-21%",
+        "Regenjacke mit Code SUMMER20",
+        "7,99 €",
+        "49,99 €",
+        "-84%",
+        "Ninja Airfryer mit Code AFF-AF200"
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.25986078886310904,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 7.38,
+          "mentions": 112,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/entdecke-mehr-wildnis-in-der-neuen-geo-wild-mediathek-auf-gigatv-141718",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+      "similarity": 0.967,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/oscar-nominierte-filme-auf-gigatv-diese-6-oscar-anwaerter-solltest-du-dir-nicht-entgehen-lassen-88564",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/das-gigabit-zeitalter-in-zwei-tagen-das-waren-die-innovation-days-2016-23079",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/unsere-gigatv-tipps-zum-wochenende-diese-serien-und-filme-musst-du-unbedingt-sehen-87634",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-volles-fernseh-und-streaming-programm-fuer-zuhause-58122",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.8%).",
+      "similarity": 0.9579,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/mit-raketenrucksack-troye-sivan-schau-hinter-die-kulissen-von-unserem-gigabit-tv-spot-20128",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/das-gigabit-zeitalter-hat-auch-in-klassenzimmern-begonnen-21335",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-horror-fans-180571",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+      "similarity": 0.9665,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/replikanten-untote-und-crimelords-diese-gigatv-highlights-bekommst-du-im-februar-zu-sehen-36864",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+      "similarity": 0.9672,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "Here is the JSON requested:\n```json"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/die-sci-fi-serie-devs-startet-bei-fox-alles-ueber-das-neue-gigatv-highlight-104735",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+      "similarity": 0.9636,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  "
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/teenage-mutant-ninja-turtles-mutant-mayhem-gewinnspiel-fanpaket-gigatv-heimkino-start-186689",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.6%).",
+      "similarity": 0.9663,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/geruestet-fuer-die-gigabit-gesellschaft-die-vodafone-innovation-days-2016-23025",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-reality-tv-fans-179554",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/oscars-special-line-up-diese-oscar-nominierten-filme-kannst-du-dir-jetzt-auf-gigatv-anschauen-64652",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/hol-dir-die-top-kombi-gigatv-inkl-apple-tv-4k-und-mobilfunk-153208",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+      "similarity": 0.9641,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/bvb-mediathek-gigatv-vodafone-248865",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+      "similarity": 0.9693,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-statt-kino-so-koennte-sich-die-filmbranche-veraendern-111973",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-mit-apple-tv-4k-for-all-mankind-staffel-2-jetzt-exklusiv-bei-appletv-117560",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 97.0%).",
+      "similarity": 0.9695,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/bei-vodafone-gibts-das-volle-programm-hier-kommt-deine-gigatv-cable-senderuebersicht-94328",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-highlights-august-2025-236908",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/volle-power-bei-gigatv-die-komplette-4-staffel-exklusiv-auf-abruf-36687",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.5%).",
+      "similarity": 0.9646,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  "
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl",
+        "glasfaser"
+      ],
+      "url": "https://www.vodafone.de/featured/article/fiber-nodes-fuer-noch-mehr-highspeed-im-vodafone-festnetz-91656",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.2328767123287671,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.735,
+          "mentions": 170,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.vodafone.de/festnetz/guenstiges-internet.html",
+      "event_type": "change",
+      "summary": "120 neue Zeilen, 28 entfernte Zeilen (Ähnlichkeit 75.9%).",
+      "similarity": 0.7595,
+      "added_lines_count": 120,
+      "removed_lines_count": 28,
+      "added_lines": [
+        "Internet für zuhause – für unter 20 € pro Monat",
+        "Unsere GigaZuhause-Tarife für Deinen festen Internetanschluss gibt’s schon ab 19,99 € pro Monat. Du wählst einfach einen Internet-Tarif, der zu Deiner Anschlussart und Deinem Bandbreiten-Bedarf passt.",
+        "Viele unserer Tarife bekommst Du 9 Monate lang zum Vorteilspreis. Danach zahlst Du den vollen Tarifpreis. Das sind je nach Internetanschluss und Bandbreite zwischen 34,99 € pro Monat und 69,99 € pro M",
+        "Entdeck unsere Internet-Tarife für zuhause",
+        "Kabel",
+        "DSL",
+        "Glasfaser",
+        "Kabel-Internet bekommst Du über Deinen TV-Anschluss.",
+        "Du kannst mit bis zu 1.000 Mbit/s surfen.",
+        "1000",
+        "19,99 €",
+        "mtl.",
+        "800",
+        "19,99 €",
+        "mtl.",
+        "600",
+        "19,99 €",
+        "mtl.",
+        "300",
+        "39,99 €",
+        "mtl.",
+        "150",
+        "19,99 €",
+        "mtl.",
+        "50",
+        "19,99 €",
+        "mtl.",
+        "GigaZuhause 1000 Kabel",
+        "1000 Mbit/s",
+        "Deine Tarif-Vorteile:"
+      ],
+      "removed_lines": [
+        "Zur Tarif-Auswahl",
+        "Wähl Deinen DSL-Internet-Tarif",
+        "Günstiges Internet: Häufig gestellte Fragen",
+        "Günstiges Internet für zuhause: Welche Tarife gibt es bei Vodafone?",
+        "✓ Günstiges Internet mit Telefon-Flat: Telefoniere flat ins deutsche Festnetz und ins Vodafone Mobilfunknetz, während Du günstig im Internet surfst – die GigaZuhause DSL-Tarife unterscheiden sich nur ",
+        "✓ Günstiges Internet mit Fernsehen: Wusstest Du, dass Du die GigaZuhause-Tarife auch ganz unkompliziert mit GigaTV erweitern kannst? GigaTV ist Dein TV-Paket mit vielen HD-Sendern und großer integrier",
+        "Günstiges Internet für unterwegs: Welche Tarife gibt es bei Vodafone?",
+        "✓ Günstiges Internet auf dem Smartphone oder Tablet: Mit einem günstigen Internetzugang von Vodafone für die mobile Nutzung hast Du auch unterwegs eine hohe Surfgeschwindigkeit. Ob im Café oder auf Ge",
+        "✓ Günstiges Internet auf dem Laptop: Der GigaCube ist ein leistungsstarker WLAN-Router, mit dem Du übers LTE-Mobilfunknetz ins Internet gehen kannst. Steck ihn einfach in die Steckdose und surf sofort",
+        "Weitere Angebote für WLAN zuhause",
+        "Internet ohne Telefon",
+        "Du benötigst keinen Festnetzanschluss sondern nur einen Internetanschluss? Wir haben das passende Angebot.",
+        "Internet ohne Festnetz entdecken",
+        "Für Geschäftskunden",
+        "Sichern Sie sich einen Business-Tarif und profitieren Sie von unseren exklusiven Business-Services.",
+        "Business Tarife entdecken",
+        "Kombinieren und sparen",
+        "Du willst mehr als ein Produkt von uns? Mit der GigaKombi bekommst Du alle Verträge aus einer Hand.",
+        "Kombinier Internet, Mobilfunk oder TV.",
+        "Komm auch Du günstig ins Internet!",
+        "Wenn Du ein echter Vielsurfer bist und das Internet günstig nutzen möchtest, bist Du bei Vodafone genau richtig. Ob Gelegenheits- oder Profi-Anwender – hier finden alle User einen attraktiven und güns",
+        "✓",
+        "Internet-Flat",
+        "✓",
+        "Festnetz- und Mobilfunk-Flat",
+        "✓",
+        "Deutschlandweit verfügbar",
+        "Du suchst noch mehr Infos zu günstigem Internet? Dann wirf einfach einen Blick in unsere FAQ. Dort erfährst Du die wichtigsten Fakten zu unseren Angeboten."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23484848484848486,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.82,
+          "mentions": 93,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/fernsehen-im-wohnmobil-mit-und-ohne-sat-schuessel-179334",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/von-der-katze-bis-zum-wendler-die-groessten-reality-tv-stars-im-deutschen-fernsehen-105160",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.8%).",
+      "similarity": 0.9675,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/13th-street-shocking-short-2020-mit-special-content-bei-vodafone-gigatv-103838",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/welcome-to-the-jungle-die-gigatv-serien-und-filmhighlights-im-mai-43069",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/fernsehen-aus-dem-netz-internet-tv-anbieter-im-grossen-vergleich-177449",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/mysterioese-telefonnummer-sperren-wie-geht-das-bei-meinem-router-36265",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/green-gigabit-im-vodafone-netz-surfst-du-mit-100-prozent-gruenstrom-138988",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/highspeed-internet-auf-dem-land-wie-das-bayerische-icking-zum-digitalen-leuchtturm-wird-28858",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.vodafone.de/featured/article/100-mbits-wie-schnell-179643",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23484848484848486,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.82,
+          "mentions": 93,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser"
+      ],
+      "url": "https://www.vodafone.de/featured/article/welcher-vodafone-glasfaser-tarif-passt-zu-dir-177009",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23053892215568864,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.65,
+          "mentions": 77,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/mecklenburg-vorpommern-startet-ins-gigabit-zeitalter-56826",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/aktion-deutschland-hilft-vodafone-versorgt-180-tiny-houses-im-ahrtal-mit-internet-und-gigatv-146086",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/doppelpack-zur-rueckrunde-sky-fussball-bundesliga-paket-jetzt-bei-gigatv-inklusive-31666",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.9%).",
+      "similarity": 0.9589,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/angebot-gigatv-gratis-sichern-geschenkt-rabatt-129550",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/john-wick-gewinnspiel-vodafone-verlost-fanpakete-zum-start-von-kapitel-4-auf-gigatv-184142",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+      "similarity": 0.9667,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type\":"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser",
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/kabel-glasfasernetz-das-halbe-gigabit-jetzt-fuer-5-millionen-haushalte-41412",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.26666666666666666,
+          "appearance_rate": 0.9,
+          "citation_rate": 0.0,
+          "avg_rank": 6.300000000000001,
+          "mentions": 204,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.9,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/maschinennetz-fuer-dein-smart-home-panasonic-und-vodafone-ruesten-haushalte-fuer-das-gigabit-zeitalter-auf-53131",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/die-coolsten-raumschiffe-aus-film-und-fernsehen-99030",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser",
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/fernsehen-ueber-glasfaser-alle-vorteile-im-ueberblick-180069",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+      "similarity": 0.9689,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.22388059701492538,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 8.575,
+          "mentions": 150,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigaschnell-das-halbe-gigabit-rast-jetzt-auch-durchs-kabel-25954",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/the-future-is-exciting-futurist-thomas-frey-prophezeit-aufregendes-gigabit-zeitalter-41660",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/niedersachsen-wird-gigabit-land-vodafone-schliesst-digital-allianz-52751",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kombi"
+      ],
+      "url": "https://www.vodafone.de/featured/article/vodafones-gigakombi-kampagne-wird-zum-ar-erlebnis-interaktive-riesenposter-gewinnspiel-183920",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.20833333333333334,
+          "appearance_rate": 0.72,
+          "citation_rate": 0.0,
+          "avg_rank": 6.0,
+          "mentions": 95,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.72,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-mediatheken-fuer-kinder-kids-inhalte-auf-gigatv-177662",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/cartoons-ohne-ende-adult-swim-findet-neues-zuhause-bei-gigatv-144934",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/bob-marley-milli-vanilli-jamie-oliver-gigatv-highlights-im-mai-198802",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kombi"
+      ],
+      "url": "https://www.vodafone.de/featured/article/humble-monthly-bundle-wird-zu-humble-choice-alle-infos-83348",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.20833333333333334,
+          "appearance_rate": 0.72,
+          "citation_rate": 0.0,
+          "avg_rank": 6.0,
+          "mentions": 95,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.72,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-highlights-mai-2026-253754",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigabit-start-in-thueringen-erfurt-wird-erste-gigabit-city-des-bundeslandes-57385",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.vodafone.de/featured/article/vodafone-im-connect-festnetz-check-194264",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23484848484848486,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.82,
+          "mentions": 93,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/brojects-zwei-brueder-bauen-um-geniesse-das-do-it-yourself-highlight-auf-gigatv-99936",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/jetzt-kommt-die-gigabitrepublik-eu-gibt-gruenes-licht-fuer-unitymedia-uebernahme-74366",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/mit-highspeed-in-die-digitalisierung-schon-fast-5-millionen-tv-haushalte-im-vodafone-kabelnetz-volldigitalisiert-59370",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-die-filmhighlights-zum-valentinstag-63899",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/hilfe/router-hitze-schutz.html",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/senderumstellung-im-vodafone-kabelnetz-so-geniesst-du-weiterhin-maximale-tv-vielfalt-130939",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/umschalten-auf-zukunft-digitalumstieg-fuer-kabel-tv-in-nuernberg-2-41205",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kombi"
+      ],
+      "url": "https://www.vodafone.de/featured/article/reggie-watts-der-musiker-hinter-der-vodafone-werbung-zur-neuen-gigakombi-kampagne-185582",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.20833333333333334,
+          "appearance_rate": 0.72,
+          "citation_rate": 0.0,
+          "avg_rank": 6.0,
+          "mentions": 95,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.72,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/jedis-superhelden-und-ein-ganz-lieber-stier-die-gigatv-serien-und-filmhighlights-im-april-40433",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.8%).",
+      "similarity": 0.9676,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/kabel-hd-sender-freischalten-178519",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/sichere-unterhaltung-fuer-kids-gigatv-inklusive-der-kinderecke-jetzt-mit-dem-fsm-pruefsiegel-zertifiziert-94622",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/stalk-bei-sony-channel-die-erste-folge-als-preview-und-die-komplette-staffel-bei-vodafone-gigatv-122915",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.7%).",
+      "similarity": 0.9674,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/freie-routerwahl-vodafone-verraet-was-du-jetzt-wissen-musst-22247",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/hollywood-aliens-und-die-berlinale-das-sind-deine-gigatv-film-und-serien-highlights-im-februar-121932",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 97.0%).",
+      "similarity": 0.9697,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "Here is the JSON requested:\n```json"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser",
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/kabel-glasfasernetz-ueber-20-millionen-haushalte-surfen-schon-heute-mit-dem-halben-gigabit-79883",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.26666666666666666,
+          "appearance_rate": 0.9,
+          "citation_rate": 0.0,
+          "avg_rank": 6.300000000000001,
+          "mentions": 204,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.9,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/dinos-burger-und-dumbledores-geheimnisse-das-sind-deine-gigatv-highlights-im-mai-154411",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/disney-plus-geschenkt-mit-gigatv-angebot-vodafone-215261",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.9%).",
+      "similarity": 0.9685,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/tnt-serie-entdecke-deine-neue-lieblingsserie-mit-gigatv-106526",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.4%).",
+      "similarity": 0.9644,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "Here is the JSON requested:\n```json"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/tschuess-primetime-streamingdienst-vs-klassisches-fernsehen-14250",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/diese-zwei-seltsamen-videospiele-will-der-john-wick-macher-ins-fernsehen-bringen-100358",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 95.7%).",
+      "similarity": 0.957,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/mit-gigaspeed-in-die-gigabit-zukunft-vodafone-bringt-ein-halbes-gigabit-aufs-smartphone-23186",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/was-ist-kabel-internet-die-uebertragungstechnologie-einfach-erklaert-180483",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-entertainmentmax-das-perfekte-all-in-one-angebot-fuer-beste-unterhaltung-115873",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.vodafone.de/featured/article/das-vodafone-netz-der-zukunft-boost-fuer-das-festnetz-88848",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23484848484848486,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.82,
+          "mentions": 93,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-highlights-juni-2026-254586",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/vodafone-router-tauschen-178224",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kombi"
+      ],
+      "url": "https://www.vodafone.de/featured/article/google-pixel-7-und-7-pro-im-hands-on-smarte-kamera-starke-leistung-und-attraktives-bundle-163921",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.20833333333333334,
+          "appearance_rate": 0.72,
+          "citation_rate": 0.0,
+          "avg_rank": 6.0,
+          "mentions": 95,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.72,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/neu-auf-vodafone-gigatv-ultrascharfe-vod-inhalte-und-noch-mehr-livesport-auf-allen-geraeten-109138",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/beste-unterhaltung-mit-dem-sky-fussball-bundesliga-paket-jetzt-bei-gigatv-inklusive-74847",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/reibungsloses-setup-fuer-deinen-kabelanschluss-14466",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/noch-mehr-gigaspeed-anschluesse-hier-rauscht-jetzt-das-halbe-gigabit-durchs-kabel-50918",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-highlights-november-2025-242863",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/super-bowl-2020-bei-gigatv-im-stream-so-schaust-du-das-nfl-finale-87757",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.6%).",
+      "similarity": 0.9663,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  "
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser",
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigabit-ausbau-landkreis-helmstedt-bekommt-gigaschnelles-glasfasernetz-53675",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.26666666666666666,
+          "appearance_rate": 0.9,
+          "citation_rate": 0.0,
+          "avg_rank": 6.300000000000001,
+          "mentions": 204,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.9,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/nokia-streaming-box-8000-android-10-vs-gigatv-115986",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.0%).",
+      "similarity": 0.9605,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": "{\n  \"type"
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/gigatv-mag-guide-vodafone-89221",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/star-wars-und-vodafone-wecken-die-macht-der-gigabit-generation-83525",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/baustelle-unsere-streaming-und-gigatv-tipps-fuer-das-wochenende-diese-serien-und-filme-musst-du-sehen-87954",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser",
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/netzausbau-erste-ausbaustufe-zum-gigabit-internet-startet-cv-47804",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 50
+        },
+        "t1": {
+          "share_of_voice": 0.26666666666666666,
+          "appearance_rate": 0.9,
+          "citation_rate": 0.0,
+          "avg_rank": 6.300000000000001,
+          "mentions": 204,
+          "prompts": 50
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.9,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/takeover-voll-vertauscht-die-lochis-auf-gigatv-118470",
+      "event_type": "change",
+      "summary": "2 neue Zeilen, 2 entfernte Zeilen (Ähnlichkeit 96.5%).",
+      "similarity": 0.9649,
+      "added_lines_count": 2,
+      "removed_lines_count": 2,
+      "added_lines": [
+        "13. Juli 2026",
+        "35 min."
+      ],
+      "removed_lines": [
+        "01. Juli 2026",
+        "25 min."
+      ],
+      "classification": {
+        "error": "invalid json",
+        "raw": ""
+      },
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "kabel-internet"
+      ],
+      "url": "https://www.vodafone.de/featured/article/sag-hi-zum-neuen-superwlan-hol-dir-die-intelligente-empfangs-technologie-fuer-deinen-router-161750",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.29466357308584684,
+          "appearance_rate": 0.88,
+          "citation_rate": 0.0,
+          "avg_rank": 4.95,
+          "mentions": 127,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.88,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "dsl"
+      ],
+      "url": "https://www.vodafone.de/featured/article/vodafone-boostet-dein-dsl-gratis-14128",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23484848484848486,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.82,
+          "mentions": 93,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/nbc-universal-zeigt-aktuelle-kinofilme-jetzt-auf-gigatv-94910",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/black-friday-deals-auf-gigatv-aktuelle-blockbuster-zum-schnaeppchenpreis-144402",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "tv"
+      ],
+      "url": "https://www.vodafone.de/featured/article/dfb-tv-bei-gigatv-fussball-sender-254576",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.21726190476190477,
+          "appearance_rate": 0.84,
+          "citation_rate": 0.0,
+          "avg_rank": 9.5,
+          "mentions": 73,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.84,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
+      "impact_t2": null
+    },
+    {
+      "timestamp": "2026-07-13T18-35-25Z",
+      "run_id_observed": "2026-07-13T18-35-25Z",
+      "brand": "Vodafone",
+      "product_ids": [
+        "glasfaser"
+      ],
+      "url": "https://www.vodafone.de/featured/article/was-ist-schneller-5g-oder-glasfaser-unterschiede-194548",
+      "event_type": "first_seen",
+      "summary": "Seite erstmalig erfasst.",
+      "similarity": 0.0,
+      "added_lines_count": 0,
+      "removed_lines_count": 0,
+      "added_lines": [],
+      "removed_lines": [],
+      "classification": null,
+      "impact_t1": {
+        "baseline_run_id": "2026-07-12T01-28-39Z",
+        "t1_run_id": "2026-07-13T18-35-25Z",
+        "baseline": {
+          "share_of_voice": null,
+          "appearance_rate": 0.0,
+          "citation_rate": 0.0,
+          "avg_rank": null,
+          "mentions": 0,
+          "prompts": 25
+        },
+        "t1": {
+          "share_of_voice": 0.23053892215568864,
+          "appearance_rate": 0.92,
+          "citation_rate": 0.0,
+          "avg_rank": 7.65,
+          "mentions": 77,
+          "prompts": 25
+        },
+        "delta": {
+          "delta_share_of_voice": null,
+          "delta_appearance_rate": 0.92,
+          "delta_citation_rate": 0.0,
+          "delta_avg_rank": null
+        }
+      },
       "impact_t2": null
     }
   ],
